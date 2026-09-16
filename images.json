@@ -1,0 +1,15 @@
+{
+  "application_commit": "d40f19552eabaec60746922fe0e1c96cea7e1556",
+  "images": {
+    "elephant-api": "ghcr.io/jamiesonlabutsw/oasis-demo/elephant-api@sha256:fa63ee0e0d4711b9ad74b6351cf932821485fb0f1c2831bdd86807dd055d04ed",
+    "elephant-migrate": "ghcr.io/jamiesonlabutsw/oasis-demo/elephant-migrate@sha256:fa63ee0e0d4711b9ad74b6351cf932821485fb0f1c2831bdd86807dd055d04ed",
+    "frontend": "ghcr.io/jamiesonlabutsw/oasis-demo/maples-frontend@sha256:a89b15c4b25e75cb8450db4a54b1b1fa34d51a34c40f76c2275dbc2dd0666f3e",
+    "maples-api": "ghcr.io/jamiesonlabutsw/oasis-demo/maples-api@sha256:2b0200e72295f1228bdf7739b544acb9aee820f1b085d82f48d2306cef5444f2",
+    "maples-worker": "ghcr.io/jamiesonlabutsw/oasis-demo/maples-worker@sha256:10667282764d292a8e1038a9ac981ef792d3e2f79beca76fb5613c26030f3d4a"
+  },
+  "optional_mcp_included": false,
+  "platform": "linux/amd64",
+  "production_release": false,
+  "signed": false,
+  "tag": "d40f1955-amd64-r1"
+}

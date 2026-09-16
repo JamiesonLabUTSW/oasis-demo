@@ -1,0 +1,53 @@
+# Component and third-party notices
+
+This file is **not** the OASIS project license. The root project license is in
+[LICENSE](./LICENSE): academic research use only, with commercial use
+prohibited. Nothing below changes those project terms or relicenses another
+component.
+
+## OASIS-maintained component repositories
+
+The integration repository pins, but does not absorb or relicense, these
+separately versioned repositories:
+
+| Component | Repository | License evidence at the pinned revision |
+|---|---|---|
+| Elephant | `JamiesonLabUTSW/elephant` | Top-level `LICENSE` contains UTSW academic-research terms |
+| MAPLES | `JamiesonLabUTSW/maples-server` | Top-level `LICENSE` contains UTSW academic-research terms |
+| Rubrics | `JamiesonLabUTSW/rubrics` | Top-level `LICENSE` contains UTSW academic-research terms |
+| MAPLES Toolkit | `JamiesonLabUTSW/maples-toolkit` | License confirmation remains a release-checklist blocker |
+
+Each component's own `LICENSE` controls that component. The release candidate
+must pin reviewed immutable revisions and retain those files.
+
+## Direct external runtime images
+
+The default stack directly references these externally maintained images:
+
+| Runtime | Default image |
+|---|---|
+| PostgreSQL | `docker.io/library/postgres:18.3-alpine` |
+| MinIO server | `quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z-cpuv1` |
+| MinIO client | `quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z-cpuv1` |
+| Prefect | `docker.io/prefecthq/prefect:3.8.2-python3.12` |
+
+These images and the packages they contain retain their upstream copyrights
+and licenses. Binary/image publication must preserve the notices supplied by
+the corresponding image and package producers.
+
+## Redistributed sample media and data
+
+The integration repository's itemized attribution, source, modification, and
+license record for redistributed files under `sample-data/` is maintained in
+`sample-data/ATTRIBUTION.md`. Review that inventory with the exact release
+candidate; these notices do not by themselves establish data-use, consent, or
+privacy approval.
+
+## Dependency manifests
+
+The complete transitive dependency set is defined by the pinned source and
+image artifacts, including `oasis-go/go.mod`, `oasis-go/go.sum`,
+`requirements-ci.txt`, `pyproject.toml`, component manifests in each pinned
+submodule, and the container build files. Before distributing release images,
+generate and archive an SBOM/license report for the exact image digests; that
+report is release evidence, not a replacement for this project `LICENSE`.
