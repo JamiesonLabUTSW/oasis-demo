@@ -37,8 +37,9 @@ python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
 Serve only this public repository, never an installation directory or generated
-login helper. The site has no build step or backend. GitHub Pages is not enabled
-by this change; hosting requires a separate publishing decision.
+login helper. The site has no build step or backend. GitHub Pages serves the
+public `main` branch at the repository root; `.nojekyll` preserves its static
+files. Changes reach the site through the checked pull-request workflow.
 
 ## Runtime and support
 

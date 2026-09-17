@@ -1,7 +1,7 @@
 # OASIS demo library
 
-Start with a small example, understand the review workflow, then arrange an
-assisted OASIS/MAPLES installation for your computer.
+Start with a small example, understand the review workflow, then join an
+invited hosted session or arrange an assisted OASIS/MAPLES installation.
 
 **Public demo content is original synthetic material or a source-specific,
 verified public-domain reference.** Institutional rubrics, private recordings,
@@ -13,7 +13,8 @@ partner packets, real learner notes, and credentials do not belong here.
 | --- | --- |
 | Learn about the OASIS project | [OASIS project site](https://jamiesonlabutsw.github.io/oasis/) |
 | Read and cite the technical report | [OASIS preprint on arXiv](https://arxiv.org/abs/2609.09180) |
-| Explore the library | [Demo start page](index.html) — save the repository and open locally |
+| Explore the library | [Demo website](https://jamiesonlabutsw.github.io/oasis-demo/) · [Offline start page](index.html) |
+| Join the hosted MAPLES demo | [Participant guide](https://jamiesonlabutsw.github.io/oasis-demo/hosted-guide.html) · [Offline copy](hosted-guide.html) — draft walkthrough; sign-in access supplied by the facilitator after launch checks |
 | Try a short notes exercise | [Three fictional notes and an original practice rubric](demos/synthetic-notes/README.md) |
 | Find a public-domain recording | [CDC conversation: source and attribution](demos/cdc-conversation.md) |
 | Install OASIS/MAPLES | [Getting started](docs/getting-started.md) — assisted package required |
@@ -21,9 +22,11 @@ partner packets, real learner notes, and credentials do not belong here.
 | Report a problem | [Support](docs/support.md) |
 | Contribute as a developer or agent | [Contributing](CONTRIBUTING.md) · [Agent instructions](AGENTS.md) |
 
-The HTML page works offline without a server, account, external fonts, or
-analytics. GitHub displays its source; open the downloaded `index.html` in a
-browser. There is currently no hosted Pages URL advertised here.
+The HTML pages work offline without a server, account, external fonts, or
+analytics. Read them on the demo website, or download the repository and open
+`index.html` or `hosted-guide.html` in a browser. GitHub's code view displays
+HTML source. The documentation website and the invited MAPLES application are
+separate: a published guide does not mean the trial is open yet.
 
 The [OASIS project site](https://jamiesonlabutsw.github.io/oasis/) provides the
 broader project context and guided tours; the
