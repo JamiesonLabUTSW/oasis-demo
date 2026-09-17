@@ -64,3 +64,13 @@ The public library neither contains nor requires those packs.
 
 No installation, transcription, model grading, or institutional data handling
 was performed by this website change. GitHub Pages was not enabled.
+
+## Related-project navigation
+
+Added the public OASIS project site at
+[jamiesonlabutsw.github.io/oasis](https://jamiesonlabutsw.github.io/oasis/) to the
+start-page navigation and README. The URL matches the public repository's
+homepage and GitHub Pages configuration; its live page identifies OASIS and
+MAPLES. UT-REAL is noted as a planned connection with no speculative link or
+claim of deployment readiness. This edit adds navigation only, not new demo
+content or embedded assets.
