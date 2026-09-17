@@ -97,6 +97,14 @@
     "docs/support.md": {
       "kind": "documentation"
     },
+    "images-arm64.json": {
+      "kind": "runtime-manifest",
+      "sha256": "c94329edff8622b45b4b74e013e64e6c1ad72f22f939f4378ec55b16af1e40fb",
+      "application_commit": "4abb0bb242228c528ef23876dd8746f3470882b3",
+      "platform": "linux/arm64",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "provenance": "Exact native ARM64 runnable image selection; namespace copies pending content review and anonymous verification. See docs/runtime.md."
+    },
     "images.json": {
       "kind": "runtime-manifest",
       "sha256": "311c582365e860fc526df70caf9c57008339efc61328c100867d120b61a4430f"
@@ -104,7 +112,7 @@
     "index.html": {
       "kind": "original-synthetic",
       "provenance": "synthetic-notes-2026-09-16",
-      "sha256": "b3fe03a9ed61c3a304116b5212dc3a7c257a89e727cd5bb7f5793cbc6e0edf37"
+      "sha256": "37a40edd66543a4fc588983d1bad1a6ca72bafa4edfc1adbe8726e678bf99d81"
     },
     "scripts/check_public_content.py": {
       "kind": "governance"

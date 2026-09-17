@@ -42,19 +42,30 @@ when that connection is ready.
 The practice rubric is not a validated instrument. Its answers are authored
 examples, not model results.
 
-## Installation status — September 16, 2026
+## Installation status — September 17, 2026
 
-- **Public:** five frozen Linux AMD64 application images in [images.json](images.json),
-  anonymously downloadable from `ghcr.io/jamiesonlabutsw/oasis-demo/`.
+| Computer | Image selection | Status |
+| --- | --- | --- |
+| Windows Intel/AMD | d40f1955 / Linux AMD64 — [manifest](images.json) | Five public application images; anonymous download and hashes verified |
+| Apple Silicon Mac | 4abb0bb2 / Linux ARM64 — [prepared manifest](images-arm64.json) | **Prepared, not published:** exact-content review and anonymous public-image verification pending |
+
+Both selections use the separate `ghcr.io/jamiesonlabutsw/oasis-demo/`
+namespace. Use the selection supplied with your matching kit.
+
 - **Assisted:** matching Compose/bootstrap kit supplied separately by your host.
   Pulling images or cloning this repo does not install the stack. There is no
   general public installer or complete public release ZIP here yet.
 - **Windows Intel/AMD:** the assisted route uses Ubuntu/WSL2 and Docker Desktop.
   Each recipient still needs installation, login, and retained-restart checks.
-- **Apple Silicon:** request a separately verified Mac package. This public
-  AMD64 manifest is not an ARM64 installation qualification.
+- **Apple Silicon:** request the matching assisted Mac package. Fresh-recipient
+  installation, login, sample visibility, and retained restart remain to be proven.
+  The prepared ARM64 manifest does not yet establish public image availability.
 - **Models:** weights, credentials, and a verified fully local inference
   configuration are not included. Stack startup does not prove offline readiness.
+
+Optional MCP and its unresolved reference materials are excluded. Institutional
+rubrics, private recordings, learner data, and workshop packets stay outside
+public images and kits; any authorized material handoff is separate.
 
 [Getting started](docs/getting-started.md) · [Runtime details](docs/runtime.md)
 

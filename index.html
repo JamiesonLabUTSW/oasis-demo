@@ -263,7 +263,11 @@
     </section>
 
     <section id="setup" class="setup" aria-labelledby="setup-title">
-      <div><p class="eyebrow">From example to application</p><h2 id="setup-title">Get a kit.<br> Then get running.</h2><p class="lede">Your host supplies the complete installation package for your computer.</p><div class="callout"><strong>What is public today?</strong><p>Frozen AMD64 application images. A repository clone or image pull is not a full installation. There is no general public installer here yet.</p></div><p class="fine">Windows Intel/AMD: assisted Ubuntu/WSL2 route.<br>Apple Silicon: request a verified Mac package.<br>Model weights and credentials are supplied separately.</p></div>
+      <div><p class="eyebrow">From example to application</p><h2 id="setup-title">Get a kit.<br> Then get running.</h2><p class="lede">Your host supplies the complete installation package for your computer.</p>
+        <article class="callout" aria-label="Windows Intel and AMD runtime"><strong>Windows Intel / AMD</strong><p>d40f1955 · Linux AMD64<br>Five public images, with anonymous downloads verified. Use the assisted Ubuntu/WSL2 kit.</p><p><a href="images.json">AMD64 image manifest</a></p></article>
+        <article class="callout" aria-label="Apple Silicon runtime preparation"><strong>Apple Silicon Mac</strong><p>4abb0bb2 · Linux ARM64<br><b>Prepared, not published.</b> Content review and anonymous public-image checks are pending. Request the matching assisted Mac kit.</p><p><a href="images-arm64.json">Prepared ARM64 image manifest</a></p></article>
+        <p class="fine">An image pull is not a complete installation. Each recipient still needs sign-in, sample, and retained-restart checks. There is no general public installer here yet. Model weights, credentials, and restricted materials are not included. <a href="docs/runtime.md">Runtime details</a>.</p>
+      </div>
       <ol class="steps">
         <li><span class="step-number" aria-hidden="true">1</span><strong>Get the matching package</strong><p>Ask your demo host for the kit, its checksum, prerequisites, and model/provider plan. Use its own instructions.</p></li>
         <li><span class="step-number" aria-hidden="true">2</span><strong>Check, plan, install, verify</strong><p>Run the kit's commands in its specified terminal. Stop on a failed check and keep the error for support.</p></li>
@@ -283,7 +287,7 @@
       <div><p class="eyebrow">For contributors and agents</p><h2>Keep the public library clean.</h2><p>Only original synthetic demo content and verified public-domain references belong here. Every file is inventoried; demo assets carry provenance and checksums.</p><p><a href="docs/public-content-policy.md">Content policy</a> · <a href="CONTRIBUTING.md">Contribute</a> · <a href="AGENTS.md">Agent guide</a></p></div>
     </section>
   </main>
-  <footer><div><strong>OASIS / MAPLES</strong><br>Academic research demonstration · Status: September 16, 2026</div><div><div class="footer-resources"><a href="https://jamiesonlabutsw.github.io/oasis/">OASIS project</a> · <a href="https://arxiv.org/abs/2609.09180">arXiv paper</a> · <a href="https://github.com/JamiesonLabUTSW/oasis-demo">Demo repository ↗</a></div><a href="LICENSE">Project license</a> · <a href="THIRD_PARTY_NOTICES">Third-party notices</a><br>Public access does not change the academic-research terms.</div></footer>
+  <footer><div><strong>OASIS / MAPLES</strong><br>Academic research demonstration · Status: September 17, 2026</div><div><div class="footer-resources"><a href="https://jamiesonlabutsw.github.io/oasis/">OASIS project</a> · <a href="https://arxiv.org/abs/2609.09180">arXiv paper</a> · <a href="https://github.com/JamiesonLabUTSW/oasis-demo">Demo repository ↗</a></div><a href="LICENSE">Project license</a> · <a href="THIRD_PARTY_NOTICES">Third-party notices</a><br>Public access does not change the academic-research terms.</div></footer>
 </div>
 </body>
 </html>

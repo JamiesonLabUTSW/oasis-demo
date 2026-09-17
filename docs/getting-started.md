@@ -21,9 +21,15 @@ yet. A correctly supplied assisted kit does not require application-source acces
 
 | Computer | Route | Still needs verification |
 | --- | --- | --- |
-| Windows Intel/AMD | Host-supplied AMD64 kit with Ubuntu/WSL2 and Docker Desktop | Current resources, install, login, sample, retained restart |
-| Apple Silicon Mac | Host-supplied Mac kit | Exact native package, model choice, device acceptance |
+| Windows Intel/AMD | Host-supplied d40f1955 AMD64 kit with Ubuntu/WSL2 and Docker Desktop; [public image manifest](../images.json) | Current resources, install, login, sample, retained restart |
+| Apple Silicon Mac | Host-supplied 4abb0bb2 Mac kit with Docker Desktop; [prepared ARM64 manifest](../images-arm64.json) | Public copies pending; fresh-recipient install, login, sample, retained restart, and separately selected model route |
 | Other Linux/Windows ARM | Ask for an explicitly supported package | No general support claim here |
+
+The Apple Silicon manifest is **prepared, not published**. It lists the intended
+exact image selection while content review and anonymous public downloads are
+pending. Do not replace a supplied kit's profile or mix the two versions.
+Publication will not create a general public Mac installer or qualify a fresh
+recipient machine. [Runtime status](runtime.md).
 
 Use your kit's resource checks. Chip names and total RAM do not establish
 sufficient free memory, storage, or local-model capacity.
