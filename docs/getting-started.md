@@ -5,8 +5,10 @@
 Use the [hosted MAPLES participant guide](../hosted-guide.html). Your facilitator
 provides the HTTPS URL and your assigned account after launch checks. You need
 a browser and internet access; no local installation or personal model key is
-required. The guide covers a synthetic note, rubric, grading, human review and
-Excel export. Its draft status does not claim the hosted demo is already ready.
+required. Start with the prepared group and **Trial documentation quality** rubric.
+The guide covers grading, human review and Excel export, followed by
+[editing/uploading your own rubric and adding a note with the host](../hosted-guide.html#bring-your-own).
+Final browser walkthrough checks are still in progress.
 
 The installation steps below are for people setting up their own computer.
 

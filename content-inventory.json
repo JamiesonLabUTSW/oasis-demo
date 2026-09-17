@@ -30,9 +30,9 @@
       "created_on": "2026-09-17",
       "reviewed_on": "2026-09-17",
       "rights": "Original repository documentation and fictional instructional prompt; existing root LICENSE applies. Not a public-domain dedication.",
-      "statement": "Original hosted-workflow instructions and a fictional rubric-writing prompt. No private guide assets, screenshots, records, rubric files, credentials or deployment evidence copied.",
+      "statement": "Original hosted-workflow instructions, workbook-editing and host-assisted upload instructions, and a fictional rubric-writing prompt. No private guide assets, screenshots, records, rubric files, credentials or deployment evidence copied.",
       "evidence": "docs/content-review-2026-09-17.md",
-      "readiness": "Guide draft; hosted MAPLES acceptance remains in progress and no live sign-in URL is advertised."
+      "readiness": "Prepared starter workflow and source-checked upload instructions; final browser walkthrough and external comparison export compatibility remain unverified. No live sign-in URL is advertised."
     }
   },
   "files": {
@@ -114,7 +114,7 @@
     "index.html": {
       "kind": "original-synthetic",
       "provenance": "synthetic-notes-2026-09-16",
-      "sha256": "b6f978a955a251f0b1955e0c31645fb4334f4aa617e05b63a429a8da6462f43c"
+      "sha256": "1c7958aa851be1a240e465026c40590db13c00b10475e3b0725e8353e1035c13"
     },
     "scripts/check_public_content.py": {
       "kind": "governance"
@@ -122,7 +122,7 @@
     "hosted-guide.html": {
       "kind": "original-synthetic",
       "provenance": "hosted-guide-2026-09-17",
-      "sha256": "bdb40ce2abd693194642d41e4f0b791fb4e9cd6df4db1ef011c4503e3a2cb77d"
+      "sha256": "7d98a610c1a58d915018d3243f6110ead6f3c677f1deb898465c946bb0413eb8"
     },
     "docs/content-review-2026-09-17.md": {
       "kind": "documentation"
