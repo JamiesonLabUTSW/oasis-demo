@@ -63,3 +63,16 @@ Update validation: the source review found the prepared workbook uses a 1–3
 scale, now stated explicitly. Inventory and whitespace checks passed. The
 quick-start and upload sections were visually checked at desktop and phone
 widths, and the new format disclosure opened with the Enter key.
+
+## Requested public login link
+
+The owner explicitly requested a convenient link to the running hosted demo.
+This supersedes the earlier decision to hold the link until the final browser
+review rehearsal. The guide and library now link to the operator-confirmed
+HTTPS origin, label access as requiring an assigned account, and keep the guide
+open by opening the application in a new tab with `noopener noreferrer`.
+
+The link publishes an address only. It includes no account names, passwords,
+login scheme, tokens, API keys or private evidence, and changes no application
+permissions or registration settings. The remaining saved-review browser check
+and external comparison compatibility are not newly claimed as passed.

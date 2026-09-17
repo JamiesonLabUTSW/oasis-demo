@@ -2,8 +2,9 @@
 
 ## Joining a hosted session?
 
-Use the [hosted MAPLES participant guide](../hosted-guide.html). Your facilitator
-provides the HTTPS URL and your assigned account after launch checks. You need
+Use the [hosted MAPLES participant guide](../hosted-guide.html) and
+[open the hosted demo](https://136-65-236-41.sslip.io). Your facilitator
+provides your assigned account privately. Public registration is closed. You need
 a browser and internet access; no local installation or personal model key is
 required. Start with the prepared group and **Trial documentation quality** rubric.
 The guide covers grading, human review and Excel export, followed by

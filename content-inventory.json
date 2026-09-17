@@ -32,7 +32,7 @@
       "rights": "Original repository documentation and fictional instructional prompt; existing root LICENSE applies. Not a public-domain dedication.",
       "statement": "Original hosted-workflow instructions, workbook-editing and host-assisted upload instructions, and a fictional rubric-writing prompt. No private guide assets, screenshots, records, rubric files, credentials or deployment evidence copied.",
       "evidence": "docs/content-review-2026-09-17.md",
-      "readiness": "Prepared starter workflow and source-checked upload instructions; final browser walkthrough and external comparison export compatibility remain unverified. No live sign-in URL is advertised."
+      "readiness": "Invited trial login URL published at the owner\u2019s request. Prepared workflow and source-checked upload instructions; saved-review browser rehearsal and external comparison export compatibility remain unverified."
     }
   },
   "files": {
@@ -114,7 +114,7 @@
     "index.html": {
       "kind": "original-synthetic",
       "provenance": "synthetic-notes-2026-09-16",
-      "sha256": "1c7958aa851be1a240e465026c40590db13c00b10475e3b0725e8353e1035c13"
+      "sha256": "157ccbf3ebbd624171b7f03eeede6eec15dfabbb8c5164287fc2bb2cdb667922"
     },
     "scripts/check_public_content.py": {
       "kind": "governance"
@@ -122,7 +122,7 @@
     "hosted-guide.html": {
       "kind": "original-synthetic",
       "provenance": "hosted-guide-2026-09-17",
-      "sha256": "7d98a610c1a58d915018d3243f6110ead6f3c677f1deb898465c946bb0413eb8"
+      "sha256": "4e4d467093c013d7327b54bcd45db5850cb35ec02f13e05e7733c3d9b0bf00c3"
     },
     "docs/content-review-2026-09-17.md": {
       "kind": "documentation"
