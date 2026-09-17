@@ -45,10 +45,13 @@ remain open even after image publication.
 The [source/license manifest](third-party/4abb0bb2-arm64-r1/SOURCE-LICENSE-MANIFEST.json)
 and [companion README](third-party/4abb0bb2-arm64-r1/README.md) bind the four exact
 image manifests to SBOMs, package/license reports, notices and 58 verified
-upstream source archives. The snapshot is `EVIDENCE_ASSEMBLED`. Its two release
-ZIPs are prepared for the
-[`4abb0bb2-arm64-r1` release](https://github.com/JamiesonLabUTSW/oasis-demo/releases/tag/4abb0bb2-arm64-r1);
-release availability remains `PREPARED_NOT_PUBLISHED`.
+upstream source archives. The immutable snapshot remains `EVIDENCE_ASSEMBLED`.
+Both ZIPs are published in the
+[`4abb0bb2-arm64-r1` release](https://github.com/JamiesonLabUTSW/oasis-demo/releases/tag/4abb0bb2-arm64-r1).
+Release availability is `PUBLISHED_ANONYMOUS_VERIFIED`: full anonymous downloads
+matched both frozen byte counts and SHA-256 hashes on September 17, 2026.
+The [publication receipt](third-party/4abb0bb2-arm64-r1/PUBLICATION.json) records
+that source-companion verification; ARM64 image publication remains pending.
 
 Third-party sources retain upstream terms and are separate from the public demo
 library. The [review summary](content-review-arm64-2026-09-17.md) records exact

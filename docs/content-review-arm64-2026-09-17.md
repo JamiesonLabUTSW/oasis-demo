@@ -11,7 +11,7 @@ runnable manifests and 52 unique layers. Optional MCP is excluded.
 | --- | --- |
 | Exact image content review | Scoped PASS; limitations below |
 | Third-party evidence/source snapshot | `EVIDENCE_ASSEMBLED`; final archives verified |
-| GitHub release assets | `PREPARED_NOT_PUBLISHED` |
+| GitHub release assets | `PUBLISHED_ANONYMOUS_VERIFIED` |
 | Public ARM64 images | `PREPARED_NOT_PUBLISHED` |
 | Fresh-recipient Mac installation and acceptance | Pending; separate assisted handoff |
 
@@ -53,10 +53,14 @@ materials remain outside this public release.
 
 The [source and license manifest](third-party/4abb0bb2-arm64-r1/SOURCE-LICENSE-MANIFEST.json)
 and [companion README](third-party/4abb0bb2-arm64-r1/README.md) describe the immutable
-snapshot. The intended [release page](https://github.com/JamiesonLabUTSW/oasis-demo/releases/tag/4abb0bb2-arm64-r1)
-is not claimed available until publication is separately verified.
+snapshot. Both assets are available on the
+[release page](https://github.com/JamiesonLabUTSW/oasis-demo/releases/tag/4abb0bb2-arm64-r1).
+Full anonymous downloads matched their frozen sizes and SHA-256 hashes on
+September 17, 2026; see the
+[publication receipt](third-party/4abb0bb2-arm64-r1/PUBLICATION.json).
+This verifies source-companion availability only; ARM64 images remain pending.
 
-| Prepared release asset | Bytes | SHA-256 |
+| Published release asset | Bytes | SHA-256 |
 | --- | ---: | --- |
 | `oasis-arm64-4abb0bb2-third-party-evidence-r1.zip` | 7,067,501 | `c9827ccb1afcb0aa028668931f0fe70111273b4cf03266f2bc7edddb77b12e56` |
 | `oasis-arm64-4abb0bb2-third-party-evidence-r1-sources.zip` | 193,502,505 | `cf6706e72241752add1a433ff25d7a8893dec7cd8be61a7ccad552295a62c82a` |

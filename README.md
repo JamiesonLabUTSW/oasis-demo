@@ -47,7 +47,7 @@ examples, not model results.
 | Computer | Image selection | Status |
 | --- | --- | --- |
 | Windows Intel/AMD | d40f1955 / Linux AMD64 — [manifest](images.json) | Five public application images; anonymous download and hashes verified |
-| Apple Silicon Mac | 4abb0bb2 / Linux ARM64 — [prepared manifest](images-arm64.json) | **Prepared, not published:** exact-content review and anonymous public-image verification pending |
+| Apple Silicon Mac | 4abb0bb2 / Linux ARM64 — [prepared manifest](images-arm64.json) | **Prepared, not published:** exact-content review passed; public copy and anonymous verification pending |
 
 Both selections use the separate `ghcr.io/jamiesonlabutsw/oasis-demo/`
 namespace. Use the selection supplied with your matching kit.

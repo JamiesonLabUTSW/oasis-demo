@@ -26,8 +26,8 @@ yet. A correctly supplied assisted kit does not require application-source acces
 | Other Linux/Windows ARM | Ask for an explicitly supported package | No general support claim here |
 
 The Apple Silicon manifest is **prepared, not published**. It lists the intended
-exact image selection while content review and anonymous public downloads are
-pending. Do not replace a supplied kit's profile or mix the two versions.
+exact image selection. Content review passed; public copies and anonymous
+download verification are pending. Do not replace a supplied kit's profile or mix the two versions.
 Publication will not create a general public Mac installer or qualify a fresh
 recipient machine. [Runtime status](runtime.md).
 

@@ -84,9 +84,9 @@
     },
     "docs/content-review-arm64-2026-09-17.md": {
       "kind": "documentation",
-      "sha256": "f8d603a115495f40e44554055f96b8c21f4669f9d115886589b6fb41604f4370",
+      "sha256": "11c33887f6e1bebc5cffca4bc681f572ef9fd895ca204f64a718fc2e3f79143f",
       "reviewed_on": "2026-09-17",
-      "scope": "Sanitized exact-image and release-archive content review summary; publication and recipient acceptance remain pending."
+      "scope": "Sanitized exact-image and release-archive content review summary; source-companion anonymous publication verified, image publication and recipient acceptance pending."
     },
     "docs/facilitator-guide.md": {
       "kind": "documentation"
@@ -102,6 +102,12 @@
     },
     "docs/support.md": {
       "kind": "documentation"
+    },
+    "docs/third-party/4abb0bb2-arm64-r1/PUBLICATION.json": {
+      "kind": "governance",
+      "sha256": "ba58ba9b6bdcb9018523b9a8ebb56f794bd87562e80234dd289c885159dbbf23",
+      "reviewed_on": "2026-09-17",
+      "scope": "Sanitized completed anonymous source-companion release verification; asset names, byte counts, hashes and timestamps only. No image-publication or recipient-acceptance claim."
     },
     "docs/third-party/4abb0bb2-arm64-r1/README.md": {
       "kind": "documentation",
@@ -121,7 +127,7 @@
       "application_commit": "4abb0bb242228c528ef23876dd8746f3470882b3",
       "platform": "linux/arm64",
       "status": "PREPARED_NOT_PUBLISHED",
-      "provenance": "Exact native ARM64 runnable image selection; namespace copies pending content review and anonymous verification. See docs/runtime.md."
+      "provenance": "Exact native ARM64 runnable image selection; scoped content and third-party evidence review passed. Namespace copies and anonymous image verification pending. See docs/runtime.md."
     },
     "images.json": {
       "kind": "runtime-manifest",
@@ -130,7 +136,7 @@
     "index.html": {
       "kind": "original-synthetic",
       "provenance": "synthetic-notes-2026-09-16",
-      "sha256": "37a40edd66543a4fc588983d1bad1a6ca72bafa4edfc1adbe8726e678bf99d81"
+      "sha256": "bfa880c2f9d5096520a18e118832a73c66388e5c1f31cbaa7aa1271e6556d703"
     },
     "scripts/check_public_content.py": {
       "kind": "governance"
