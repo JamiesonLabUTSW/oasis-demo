@@ -114,7 +114,7 @@
     "index.html": {
       "kind": "original-synthetic",
       "provenance": "synthetic-notes-2026-09-16",
-      "sha256": "157ccbf3ebbd624171b7f03eeede6eec15dfabbb8c5164287fc2bb2cdb667922"
+      "sha256": "e520877e7a656c1a73992b66f55be3e50819163e827f4033784cffde3fb9c455"
     },
     "scripts/check_public_content.py": {
       "kind": "governance"
@@ -122,7 +122,7 @@
     "hosted-guide.html": {
       "kind": "original-synthetic",
       "provenance": "hosted-guide-2026-09-17",
-      "sha256": "4e4d467093c013d7327b54bcd45db5850cb35ec02f13e05e7733c3d9b0bf00c3"
+      "sha256": "a0427a42025a1406f4c07e8eb3b91093ccb8e324df298c9a751a639a684e6378"
     },
     "docs/content-review-2026-09-17.md": {
       "kind": "documentation"
