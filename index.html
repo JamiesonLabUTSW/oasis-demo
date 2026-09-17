@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore OASIS with original synthetic notes, a verified public-domain source, and a clear assisted setup path.">
+  <title>OASIS · Demo library</title>
+  <style>
+    :root { color-scheme: light; --paper:#f6f5ef; --ink:#193d35; --muted:#52665f; --line:#d4ddd3; --white:#fffef9; --accent:#eadc9c; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:1.5rem; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    a { color:inherit; text-underline-offset:4px; }
+    a:hover { text-decoration-thickness:2px; }
+    a:focus-visible,summary:focus-visible { outline:3px solid #99600a; outline-offset:5px; border-radius:3px; }
+    .skip { position:absolute; left:1rem; top:-6rem; padding:.7rem 1rem; background:var(--white); z-index:2; }
+    .skip:focus { top:1rem; }
+    .wrap { width:min(1120px,calc(100% - 64px)); margin:auto; }
+    header { display:flex; justify-content:space-between; align-items:center; gap:24px; padding:27px 0; border-bottom:1px solid var(--line); }
+    .brand { display:flex; align-items:center; gap:12px; text-decoration:none; font-size:20px; font-weight:760; letter-spacing:.04em; }
+    .mark { display:grid; place-items:center; width:31px; height:31px; border:2px solid var(--ink); border-radius:50%; font-size:18px; }
+    nav { display:flex; gap:26px; flex-wrap:wrap; font-size:14px; font-weight:600; }
+    nav a { text-decoration:none; }
+    .eyebrow { font-size:11px; font-weight:750; letter-spacing:.14em; text-transform:uppercase; }
+    .hero { display:grid; grid-template-columns:1.2fr 1fr; gap:70px; align-items:center; padding:72px 0 62px; }
+    h1,h2,h3,p { margin-top:0; }
+    h1,h2 { font-family:Georgia,"Times New Roman",serif; font-weight:400; letter-spacing:-.045em; line-height:1.06; }
+    h1 { font-size:clamp(42px,5.1vw,65px); margin-bottom:23px; max-width:630px; }
+    h2 { font-size:clamp(32px,3.8vw,43px); margin-bottom:14px; }
+    h3 { font-size:20px; line-height:1.3; margin-bottom:12px; }
+    .lede { font-size:18px; color:var(--muted); max-width:540px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-top:28px; }
+    .button { display:inline-block; border:1px solid var(--ink); padding:11px 19px; border-radius:5px; text-decoration:none; font-weight:650; font-size:14px; }
+    .primary { color:var(--white); background:var(--ink); }
+    .button:hover { background:#e6eadd; }
+    .primary:hover { background:#2c584b; }
+    .hero-card { background:var(--ink); color:var(--white); border-radius:10px; padding:29px; transform:rotate(1deg); }
+    .hero-card p { color:#dae4d8; }
+    .hero-card .eyebrow { color:#e9dc9c; }
+    .loop { list-style:none; margin:25px 0 0; padding:0; display:grid; gap:10px; }
+    .loop li { display:flex; align-items:center; gap:12px; border-top:1px solid #466359; padding:12px 0 2px; }
+    .num { display:grid; place-items:center; border:1px solid #7b9387; border-radius:50%; width:26px; height:26px; flex:none; font-size:12px; }
+    .note-label { font-size:12px; color:var(--muted); }
+    .strip { display:flex; justify-content:space-between; gap:24px; padding:18px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); font-size:13px; }
+    .strip strong { font-weight:650; }
+    section { padding:58px 0; }
+    .section-top { display:flex; align-items:end; justify-content:space-between; gap:24px; margin-bottom:27px; }
+    .section-top p { margin-bottom:0; color:var(--muted); max-width:460px; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .card { display:flex; flex-direction:column; background:var(--white); padding:26px; border:1px solid var(--line); border-radius:7px; }
+    .card p { color:var(--muted); font-size:14px; }
+    .card a:last-child { margin-top:auto; font-size:14px; font-weight:650; }
+    .badge { align-self:start; font-size:10px; font-weight:750; letter-spacing:.07em; text-transform:uppercase; border-radius:30px; padding:5px 9px; background:#e7eedf; margin-bottom:24px; }
+    .badge.source { background:#f0e7c9; }
+    .badge.planned { background:#e9e9e5; }
+    .practice { border-top:1px solid var(--line); }
+    .rubric { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin:25px 0; }
+    .criterion { border-left:2px solid #b7c7a4; padding:0 16px; font-size:14px; }
+    .criterion strong { display:block; margin-bottom:6px; }
+    .criterion p { margin:0; color:var(--muted); }
+    .note { background:var(--white); border:1px solid var(--line); border-radius:7px; margin-top:14px; padding:23px 26px; display:grid; grid-template-columns:80px 1fr 120px; gap:20px; align-items:start; }
+    .note h3 { font:400 25px Georgia,serif; }
+    .note p { margin:0; }
+    .note a { justify-self:end; font-size:13px; }
+    details { background:#eaf0e3; border-radius:6px; margin-top:23px; padding:19px 24px; }
+    summary { cursor:pointer; font-weight:650; }
+    details p { margin:18px 0 0; }
+    .answer-table { width:100%; border-collapse:collapse; margin-top:17px; font-size:14px; }
+    th,td { padding:9px 12px; text-align:left; border-bottom:1px solid #ccd7c3; }
+    th:first-child,td:first-child { padding-left:0; }
+    .fine { font-size:13px; color:var(--muted); margin-top:19px; }
+    .setup { display:grid; grid-template-columns:.9fr 1.1fr; gap:68px; border-top:1px solid var(--line); }
+    .steps { list-style:none; counter-reset:step; padding:0; margin:0; }
+    .steps li { position:relative; padding:0 0 26px 45px; counter-increment:step; }
+    .steps li:before { content:counter(step); position:absolute; left:0; top:0; display:grid; place-items:center; background:#e7ebdf; width:28px; height:28px; border-radius:50%; font-size:13px; }
+    .steps strong { display:block; }
+    .steps p { color:var(--muted); font-size:14px; margin:6px 0 0; }
+    .callout { padding:22px; border:1px solid #d6cca1; background:#f2edda; border-radius:6px; font-size:14px; margin-top:23px; }
+    .callout p:last-child { margin-bottom:0; }
+    .governance { display:grid; grid-template-columns:1fr 1fr; gap:60px; border-top:1px solid var(--line); }
+    .governance p { color:var(--muted); font-size:15px; }
+    .governance h2 { font-size:34px; }
+    footer { border-top:1px solid var(--line); padding:26px 0 35px; display:flex; gap:20px; justify-content:space-between; font-size:12px; color:var(--muted); }
+    code { font-size:.9em; overflow-wrap:anywhere; }
+    @media(max-width:800px) {
+      .wrap { width:calc(100% - 36px); }
+      header { align-items:flex-start; gap:18px; }
+      nav { justify-content:flex-end; gap:12px 18px; }
+      .hero { gap:26px; padding:42px 0; grid-template-columns:1fr; }
+      .hero-card { transform:none; }
+      .strip { flex-wrap:wrap; gap:9px 20px; }
+      .section-top { display:block; }
+      .section-top p { margin-top:15px; }
+      .cards,.setup,.governance { grid-template-columns:1fr; gap:18px; }
+      .rubric { grid-template-columns:1fr; }
+      .note { grid-template-columns:1fr; gap:10px; }
+      .note h3 { margin:0; }
+      .note a { justify-self:start; }
+      section { padding:38px 0; }
+      footer { flex-direction:column; }
+    }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+  </style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+  <header>
+    <a class="brand" href="#main" aria-label="OASIS demo library"><span class="mark" aria-hidden="true">≈</span> OASIS</a>
+    <nav aria-label="Main"><a href="#library">Demo library</a><a href="#setup">Get set up</a><a href="#facilitators">For hosts</a></nav>
+  </header>
+  <main id="main">
+    <div class="hero">
+      <div>
+        <p class="eyebrow">Academic research · Demo library</p>
+        <h1>Start with a note.<br>See how review works.</h1>
+        <p class="lede">Explore a small example before setting up OASIS. Read the evidence, compare scores, and keep a person in the review.</p>
+        <div class="actions"><a class="button primary" href="#practice">Try the notes exercise ↗</a><a class="button" href="#setup">Set up the stack</a></div>
+        <p class="fine">The notes exercise needs no account, download, or model.</p>
+      </div>
+      <aside class="hero-card" aria-label="The review workflow">
+        <p class="eyebrow">A simple place to begin</p>
+        <h3>One note. Three questions.</h3>
+        <p>What is the goal? What gets in the way?<br>What happens next?</p>
+        <ol class="loop"><li><span class="num">1</span> Read the note and rubric</li><li><span class="num">2</span> Find evidence for each score</li><li><span class="num">3</span> Compare, discuss, and review</li></ol>
+      </aside>
+    </div>
+    <div class="strip"><strong>Original synthetic examples</strong><span>Verified public-domain source links</span><span>Clear setup and readiness notes</span></div>
+
+    <section id="library" aria-labelledby="library-title">
+      <div class="section-top"><div><p class="eyebrow">Choose an example</p><h2 id="library-title">A small demo library.</h2></div><p>Every example names its source and what is ready. Start with the notes; add a running stack with your host.</p></div>
+      <div class="cards">
+        <article class="card"><span class="badge">Try here · Synthetic</span><h3>Notes review practice</h3><p>Three fictional notes, one original practice rubric. Score by hand and reveal the example answers.</p><p class="note-label">Browser exercise · no model calls</p><a href="#practice">Open the exercise →</a></article>
+        <article class="card"><span class="badge source">Source link · Public domain in US</span><h3>A CDC conversation</h3><p>Explore “Partnership for Health — Sam's Initial Visit,” with file-specific provenance and attribution.</p><p class="note-label">External recording · no bundled rubric</p><a href="#cdc">View source details →</a></article>
+        <article class="card"><span class="badge planned">Plan a hosted session</span><h3>Your next site pilot</h3><p>A reusable checklist for the package, model, synthetic inputs, human review, and export.</p><p class="note-label">Planning template · host acceptance required</p><a href="#facilitators">Plan a session →</a></article>
+      </div>
+    </section>
+
+    <section id="practice" class="practice" aria-labelledby="practice-title">
+      <div class="section-top"><div><p class="eyebrow">01 · Original synthetic exercise</p><h2 id="practice-title">Find the evidence.</h2></div><p>Give each item 1 point if it is explicitly present, or 0 if absent. Read each note independently.</p></div>
+      <div class="rubric">
+        <div class="criterion"><strong>01 / Goal</strong><p>A stated wish to establish a morning routine.</p></div>
+        <div class="criterion"><strong>02 / Barrier</strong><p>Forgetting the routine on busy mornings.</p></div>
+        <div class="criterion"><strong>03 / Next step</strong><p>Both a phone reminder and a paper checklist.</p></div>
+      </div>
+      <article class="note"><h3>Note A</h3><p>The participant wants to establish a morning routine. They report forgetting the routine on busy mornings. The agreed next step is to set a phone reminder and use a paper checklist.</p><a href="demos/synthetic-notes/note-a.txt" download>Download .txt ↓</a></article>
+      <article class="note"><h3>Note B</h3><p>The participant wants to establish a morning routine. They report forgetting the routine on busy mornings. We discussed possible ways to make progress.</p><a href="demos/synthetic-notes/note-b.txt" download>Download .txt ↓</a></article>
+      <article class="note"><h3>Note C</h3><p>The participant wants to establish a morning routine. We had a short conversation and will revisit the topic later.</p><a href="demos/synthetic-notes/note-c.txt" download>Download .txt ↓</a></article>
+      <details id="answers"><summary>Finished scoring? Reveal the illustrative answers</summary>
+        <table class="answer-table"><caption class="fine">Authored teaching answers — not model output</caption><thead><tr><th scope="col">Note</th><th scope="col">Goal</th><th scope="col">Barrier</th><th scope="col">Next step</th><th scope="col">Total</th></tr></thead><tbody><tr><th scope="row">A</th><td>1</td><td>1</td><td>1</td><td>3 / 3</td></tr><tr><th scope="row">B</th><td>1</td><td>1</td><td>0</td><td>2 / 3</td></tr><tr><th scope="row">C</th><td>1</td><td>0</td><td>0</td><td>1 / 3</td></tr></tbody></table>
+        <p>All three state a goal. A and B state a barrier. Only A gives both required next steps. A general discussion or a future conversation does not meet the next-step criterion.</p>
+        <p><a href="demos/synthetic-notes/illustrative-answers.csv" download>Download answers as CSV ↓</a></p>
+      </details>
+      <p class="fine">Newly authored fictional content, September 16, 2026. This is a manual practice exercise, not a validated instrument. OASIS import and live grading of this new exercise remain unqualified. <a href="demos/synthetic-notes/README.md">Origin, terms, and details</a>.</p>
+    </section>
+
+    <section id="setup" class="setup" aria-labelledby="setup-title">
+      <div><p class="eyebrow">From example to application</p><h2 id="setup-title">Get a kit.<br>Then get running.</h2><p class="lede">Your host supplies the complete installation package for your computer.</p><div class="callout"><strong>What is public today?</strong><p>Frozen AMD64 application images. A repository clone or image pull is not a full installation. There is no general public installer here yet.</p></div><p class="fine">Windows Intel/AMD: assisted Ubuntu/WSL2 route.<br>Apple Silicon: request a verified Mac package.<br>Model weights and credentials are supplied separately.</p></div>
+      <ol class="steps">
+        <li><strong>Get the matching package</strong><p>Ask your demo host for the kit, its checksum, prerequisites, and model/provider plan. Use its own instructions.</p></li>
+        <li><strong>Check, plan, install, verify</strong><p>Run the kit's commands in its specified terminal. Stop on a failed check and keep the error for support.</p></li>
+        <li><strong>Open your local sign-in helper</strong><p>The current Windows kit's <code>guide</code> command creates a local HTML page with Copy email and Copy password controls. Keep that page private on your computer.</p></li>
+        <li><strong>Rehearse a complete run</strong><p>Confirm sign-in, sample data, and a retained restart. Then run the kit's compatible synthetic sample, review the evidence, export, and reopen. Confirm local inference separately.</p></li>
+        <li><strong>Keep the guide handy</strong><p><a href="docs/getting-started.md">Complete getting-started guide</a> · <a href="docs/support.md">Get help</a></p></li>
+      </ol>
+    </section>
+
+    <section id="cdc" class="governance" aria-labelledby="cdc-title">
+      <div><p class="eyebrow">02 · External public-domain source</p><h2 id="cdc-title">A conversation to explore.</h2><p>“Partnership for Health — Sam's Initial Visit” is a CDC recording about HIV treatment adherence. The exact file's rights record identifies it as public domain in the United States.</p><div class="actions"><a class="button" href="https://commons.wikimedia.org/wiki/File:Partnership_for_Health-_Sam%E2%80%99s_Initial_Visit.webm" target="_blank" rel="noopener noreferrer">Open source in a new tab ↗</a></div></div>
+      <div><h3>Source: CDC · 2019</h3><p>The material is also available from CDC at no charge. This reference and use in OASIS do not imply endorsement by CDC, HHS, or the U.S. Government.</p><p>This library links to the source. It does not bundle the video, transcript, or an accompanying rubric. A hosted transcription or grading demo needs its own tested setup.</p><p><a href="demos/cdc-conversation.md">Read the item-specific provenance</a></p></div>
+    </section>
+
+    <section id="facilitators" class="governance" aria-labelledby="host-title">
+      <div><p class="eyebrow">For facilitators</p><h2 id="host-title">Make the next handoff easy.</h2><p>Begin with synthetic inputs and a rehearsed host. Record the exact package, processing route, successful review/export, and any limits before handing a kit to someone else.</p><p><a href="docs/facilitator-guide.md">Session guide and site-pilot template →</a></p></div>
+      <div><p class="eyebrow">For contributors and agents</p><h2>Keep the public library clean.</h2><p>Only original synthetic demo content and verified public-domain references belong here. Every file is inventoried; demo assets carry provenance and checksums.</p><p><a href="docs/public-content-policy.md">Content policy</a> · <a href="CONTRIBUTING.md">Contribute</a> · <a href="AGENTS.md">Agent guide</a></p></div>
+    </section>
+  </main>
+  <footer><div><strong>OASIS / MAPLES</strong><br>Academic research demonstration · Status: September 16, 2026</div><div><a href="LICENSE">Project license</a> · <a href="THIRD_PARTY_NOTICES">Third-party notices</a> · <a href="https://github.com/JamiesonLabUTSW/oasis-demo">Repository ↗</a><br>Public access does not change the academic-research terms.</div></footer>
+</div>
+</body>
+</html>

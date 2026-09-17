@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "policy": "Only original synthetic demos and verified public-domain source references; no private data or institutional/proprietary rubrics/media.",
+  "provenance": {
+    "synthetic-notes-2026-09-16": {
+      "kind": "original-synthetic",
+      "creator": "OASIS demo library contributors, with AI assistance",
+      "created_on": "2026-09-16",
+      "reviewed_on": "2026-09-16",
+      "rights": "Original synthetic repository content; existing root LICENSE applies. Not a public-domain dedication.",
+      "statement": "New fictional routine-planning notes, three original documentation criteria, and illustrative authored answers. No private case, institutional rubric, third-party instrument, or real record copied or transformed. Owner explicitly permits original synthetic plus verified public-domain content.",
+      "evidence": "demos/synthetic-notes/README.md",
+      "readiness": "Manual/browser exercise only; OASIS import and live grading/review/export not qualified."
+    },
+    "cdc-sams-initial-visit": {
+      "kind": "public-domain-reference",
+      "creator": "Centers for Disease Control and Prevention",
+      "reviewed_on": "2026-09-16",
+      "rights": "Public domain in the United States per item-specific federal-work record; source links only, no media redistribution in this repo.",
+      "statement": "Exact recording identified by title, creator, source video, and file-specific rights record; no associated rubric/transcript/derivative is included.",
+      "source_url": "https://www.youtube.com/watch?v=dBXJzCnbeOE",
+      "rights_evidence_url": "https://commons.wikimedia.org/w/index.php?title=File:Partnership_for_Health-_Sam%E2%80%99s_Initial_Visit.webm&oldid=921238699",
+      "policy_url": "https://www.cdc.gov/other/agencymaterials.html",
+      "jurisdiction": "United States",
+      "attribution": "Source: CDC. Material also available from CDC at no charge. Use and links do not imply endorsement by CDC, HHS, or the U.S. Government."
+    }
+  },
+  "files": {
+    ".github/workflows/public-content.yml": {
+      "kind": "governance"
+    },
+    "AGENTS.md": {
+      "kind": "governance"
+    },
+    "CONTRIBUTING.md": {
+      "kind": "documentation"
+    },
+    "LICENSE": {
+      "kind": "governance",
+      "sha256": "82d55c07a6d092421ed3e7f7e02fee3636c507ab413085d8db54b7b3fab18b91"
+    },
+    "README.md": {
+      "kind": "documentation"
+    },
+    "THIRD_PARTY_NOTICES": {
+      "kind": "governance",
+      "sha256": "df3c216dbe2e9e176d4af13680b683f0756170b3099234b067262b04f3de494e"
+    },
+    "content-inventory.json": {
+      "kind": "governance"
+    },
+    "demos/cdc-conversation.md": {
+      "kind": "public-domain-reference",
+      "provenance": "cdc-sams-initial-visit",
+      "sha256": "6bb47f0a4acb391378b190e3012c6d5fbb0b00f44961edc099af7ba0764fda8f"
+    },
+    "demos/synthetic-notes/README.md": {
+      "kind": "original-synthetic",
+      "provenance": "synthetic-notes-2026-09-16",
+      "sha256": "125dc1b9a16d5c7358aaea64ea77fa0f03f7cb46cc4859290d576b03712b7de2"
+    },
+    "demos/synthetic-notes/illustrative-answers.csv": {
+      "kind": "original-synthetic",
+      "provenance": "synthetic-notes-2026-09-16",
+      "sha256": "32adb6e72684d7986af6e2d4a81bf0a32b5b05f6027d4b56e0a3a029aae1db8c"
+    },
+    "demos/synthetic-notes/note-a.txt": {
+      "kind": "original-synthetic",
+      "provenance": "synthetic-notes-2026-09-16",
+      "sha256": "d5874f5eaa2f4e3680b3cb8283d50dc9df0dff633b66bc60414dc621849a9b57"
+    },
+    "demos/synthetic-notes/note-b.txt": {
+      "kind": "original-synthetic",
+      "provenance": "synthetic-notes-2026-09-16",
+      "sha256": "5776072cb7e252f7a4733b19a9bd9c43629d145be6c395baa6da4c9d13c79067"
+    },
+    "demos/synthetic-notes/note-c.txt": {
+      "kind": "original-synthetic",
+      "provenance": "synthetic-notes-2026-09-16",
+      "sha256": "e8018203ac63f3a6045ec65eed72bcb01641810b9b7d0a963ebdd09eb79a729e"
+    },
+    "docs/content-review-2026-09-16.md": {
+      "kind": "documentation"
+    },
+    "docs/facilitator-guide.md": {
+      "kind": "documentation"
+    },
+    "docs/getting-started.md": {
+      "kind": "documentation"
+    },
+    "docs/public-content-policy.md": {
+      "kind": "documentation"
+    },
+    "docs/runtime.md": {
+      "kind": "documentation"
+    },
+    "docs/support.md": {
+      "kind": "documentation"
+    },
+    "images.json": {
+      "kind": "runtime-manifest",
+      "sha256": "311c582365e860fc526df70caf9c57008339efc61328c100867d120b61a4430f"
+    },
+    "index.html": {
+      "kind": "original-synthetic",
+      "provenance": "synthetic-notes-2026-09-16",
+      "sha256": "dc2356602fe125f3bb327a8ed7cab353364acf3e696725cef3633b60c4a6e01b"
+    },
+    "scripts/check_public_content.py": {
+      "kind": "governance"
+    }
+  }
+}
