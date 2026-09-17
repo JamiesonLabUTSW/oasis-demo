@@ -1,0 +1,86 @@
+{
+  "schema_version": "oasis.arm64.third-party-evidence.v1",
+  "status": "EVIDENCE_ASSEMBLED",
+  "application_source": "4abb0bb242228c528ef23876dd8746f3470882b3",
+  "platform": "linux/arm64",
+  "scan_tool": {
+    "name": "Syft",
+    "version": "1.51.1",
+    "archive_sha256": "ac063af3b9874769deb7ea1e6d76841e68f9e3bb50cd654226fc977de65532c1"
+  },
+  "scope": "all-layers; four unique manifests bind five packages",
+  "bindings": [
+    {
+      "service": "elephant-api",
+      "intended_public_reference": "ghcr.io/jamiesonlabutsw/oasis-demo/elephant-api@sha256:d1052199763971d9de9cc4fcc6a309145e6bbba88d95c10bfe4eaebd09870aac",
+      "manifest_digest": "sha256:d1052199763971d9de9cc4fcc6a309145e6bbba88d95c10bfe4eaebd09870aac",
+      "sbom": "sbom/elephant-api.spdx.json",
+      "license_report": "licenses/elephant-api.json",
+      "packages_detected": 148
+    },
+    {
+      "service": "elephant-migrate",
+      "intended_public_reference": "ghcr.io/jamiesonlabutsw/oasis-demo/elephant-migrate@sha256:d1052199763971d9de9cc4fcc6a309145e6bbba88d95c10bfe4eaebd09870aac",
+      "manifest_digest": "sha256:d1052199763971d9de9cc4fcc6a309145e6bbba88d95c10bfe4eaebd09870aac",
+      "sbom": "sbom/elephant-api.spdx.json",
+      "license_report": "licenses/elephant-api.json",
+      "packages_detected": 148
+    },
+    {
+      "service": "maples-api",
+      "intended_public_reference": "ghcr.io/jamiesonlabutsw/oasis-demo/maples-api@sha256:b681506bfeb0e63b89ff5f02aed01f66748d0c9da1fc417e98a045e415b3e09e",
+      "manifest_digest": "sha256:b681506bfeb0e63b89ff5f02aed01f66748d0c9da1fc417e98a045e415b3e09e",
+      "sbom": "sbom/maples-api.spdx.json",
+      "license_report": "licenses/maples-api.json",
+      "packages_detected": 1248
+    },
+    {
+      "service": "maples-worker",
+      "intended_public_reference": "ghcr.io/jamiesonlabutsw/oasis-demo/maples-worker@sha256:41a1bc9f78cb5102c32bee841dc243af98b07abbb250b2f454d9de8c21c4318c",
+      "manifest_digest": "sha256:41a1bc9f78cb5102c32bee841dc243af98b07abbb250b2f454d9de8c21c4318c",
+      "sbom": "sbom/maples-worker.spdx.json",
+      "license_report": "licenses/maples-worker.json",
+      "packages_detected": 1249
+    },
+    {
+      "service": "frontend",
+      "intended_public_reference": "ghcr.io/jamiesonlabutsw/oasis-demo/maples-frontend@sha256:c18461bd7e239101ca6aded7530233144e5396818a2d53b30d1aa2a869c92207",
+      "manifest_digest": "sha256:c18461bd7e239101ca6aded7530233144e5396818a2d53b30d1aa2a869c92207",
+      "sbom": "sbom/frontend.spdx.json",
+      "license_report": "licenses/frontend.json",
+      "packages_detected": 81
+    }
+  ],
+  "source_archive_count": 58,
+  "recipe_reference_counts": {
+    "ARCHIVE_INCLUDED": 51,
+    "PINNED_UPSTREAM_REFERENCE_ONLY": 1,
+    "NOT_ENABLED_IN_BINARY": 1
+  },
+  "reference_only_components": [
+    "LIBMYSOFA"
+  ],
+  "unacquired_selected_source_components": [],
+  "source_index": "sources/source-locations.json",
+  "archive_inventory": "sources/archive-inventory.json",
+  "third_party_terms": "Source code, build scripts, manuals, copyright notices and source fixtures retain their own upstream licenses; these are not synthetic/public-domain demo assets. OASIS academic-research restrictions do not relicense third-party components.",
+  "limits": [
+    "Package license report preserves NOASSERTION entries and does not certify legal completeness.",
+    "The static FFmpeg build uses GPLv3-or-later configuration; evidence and sources accompany the exact unchanged binaries.",
+    "Alpine source/patch correspondence is reconstructed from recorded library versions and official3.20 history preceding the known image build; builder APK DB/provenance was not retained.",
+    "libmysofa1.3.3 exact tag is unavailable; its Debian1.3.3+dfsg-1 copyright record and identical upstreamv1.3.2/v1.3.4 notice are included with explicit downstream/adjacent-release provenance, not exact vanished-tag verification.",
+    "The companion includes all acquired active recipe source archives, the selected Alpine library sources and all 53 upstream recipe references. Exact included, transport-unavailable and disabled sources are distinguished; transitive source completeness and full build provenance are not certified."
+  ],
+  "artifacts": [
+    {
+      "file": "oasis-arm64-4abb0bb2-third-party-evidence-r1.zip",
+      "bytes": 7067501,
+      "sha256": "c9827ccb1afcb0aa028668931f0fe70111273b4cf03266f2bc7edddb77b12e56"
+    },
+    {
+      "file": "oasis-arm64-4abb0bb2-third-party-evidence-r1-sources.zip",
+      "bytes": 193502505,
+      "sha256": "cf6706e72241752add1a433ff25d7a8893dec7cd8be61a7ccad552295a62c82a"
+    }
+  ]
+}

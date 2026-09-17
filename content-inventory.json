@@ -82,6 +82,12 @@
     "docs/content-review-2026-09-16.md": {
       "kind": "documentation"
     },
+    "docs/content-review-arm64-2026-09-17.md": {
+      "kind": "documentation",
+      "sha256": "f8d603a115495f40e44554055f96b8c21f4669f9d115886589b6fb41604f4370",
+      "reviewed_on": "2026-09-17",
+      "scope": "Sanitized exact-image and release-archive content review summary; publication and recipient acceptance remain pending."
+    },
     "docs/facilitator-guide.md": {
       "kind": "documentation"
     },
@@ -96,6 +102,18 @@
     },
     "docs/support.md": {
       "kind": "documentation"
+    },
+    "docs/third-party/4abb0bb2-arm64-r1/README.md": {
+      "kind": "documentation",
+      "sha256": "09c67fec7ccb0fe2e07aa08023550053e0951b72189fa4359497710e7d93de60",
+      "reviewed_on": "2026-09-17",
+      "scope": "Reviewed immutable third-party evidence/source snapshot instructions and license distinctions; no private host paths or acquisition receipts."
+    },
+    "docs/third-party/4abb0bb2-arm64-r1/SOURCE-LICENSE-MANIFEST.json": {
+      "kind": "governance",
+      "sha256": "e7cf0814b16eedde6c8dc0ea6c45a1705982f66bf324506be537e351ed9c03a1",
+      "reviewed_on": "2026-09-17",
+      "scope": "Exact reviewed ARM64 third-party evidence bindings, archive identities and explicit source/notice limits; not a demo asset."
     },
     "images-arm64.json": {
       "kind": "runtime-manifest",

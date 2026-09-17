@@ -32,11 +32,30 @@ This proves artifact accessibility/integrity, not device installation or inferen
 
 The prepared manifest selects exact native ARM64 runnable manifests, not a
 combined multi-platform index. These are the intended public namespace copies;
-their exact-content review, copy, and anonymous download/hash checks are pending.
+their exact-content review is complete within the
+[documented scope](content-review-arm64-2026-09-17.md). Namespace copy and anonymous
+download/hash checks are pending.
 No public ARM64 availability is claimed yet. The corresponding assisted Mac
 package remains a separate handoff; no installer ZIP is published in this repo.
 Fresh-recipient installation, login, sample visibility, and retained restart
 remain open even after image publication.
+
+## ARM64 third-party evidence and sources
+
+The [source/license manifest](third-party/4abb0bb2-arm64-r1/SOURCE-LICENSE-MANIFEST.json)
+and [companion README](third-party/4abb0bb2-arm64-r1/README.md) bind the four exact
+image manifests to SBOMs, package/license reports, notices and 58 verified
+upstream source archives. The snapshot is `EVIDENCE_ASSEMBLED`. Its two release
+ZIPs are prepared for the
+[`4abb0bb2-arm64-r1` release](https://github.com/JamiesonLabUTSW/oasis-demo/releases/tag/4abb0bb2-arm64-r1);
+release availability remains `PREPARED_NOT_PUBLISHED`.
+
+Third-party sources retain upstream terms and are separate from the public demo
+library. The [review summary](content-review-arm64-2026-09-17.md) records exact
+asset hashes and limits, including the unavailable libmysofa 1.3.3 source and
+its explicitly labeled downstream/adjacent-release notices. Neither assembled
+evidence nor public availability is a claim of complete legal or build-provenance
+verification.
 
 ## Content and installation boundary
 
@@ -48,7 +67,9 @@ are not copied into this namespace, and neither manifest is a complete installer
 Optional MCP is excluded: its reference rubrics lacked established public-release
 status. Do not enable optional profiles or republish it. The AMD64 image review
 examined a synthetic `ExampleRubric.xlsx`; see [review scope](content-review-2026-09-16.md).
-The new ARM64 selection needs its own exact-content review before publication.
+The ARM64 selection has its own
+[exact-content review](content-review-arm64-2026-09-17.md), including explicit
+scanner limitations. This does not establish publication or recipient acceptance.
 
 Only approved synthetic examples or separately verified public-domain demo
 content may accompany the application. Institutional/proprietary rubrics,
