@@ -12,6 +12,7 @@ partner packets, real learner notes, and credentials do not belong here.
 | You want to… | Go here |
 | --- | --- |
 | Learn about the OASIS project | [OASIS project site](https://jamiesonlabutsw.github.io/oasis/) |
+| Read and cite the technical report | [OASIS preprint on arXiv](https://arxiv.org/abs/2609.09180) |
 | Explore the library | [Demo start page](index.html) — save the repository and open locally |
 | Try a short notes exercise | [Three fictional notes and an original practice rubric](demos/synthetic-notes/README.md) |
 | Find a public-domain recording | [CDC conversation: source and attribution](demos/cdc-conversation.md) |
@@ -24,8 +25,11 @@ The HTML page works offline without a server, account, external fonts, or
 analytics. GitHub displays its source; open the downloaded `index.html` in a
 browser. There is currently no hosted Pages URL advertised here.
 
-The OASIS project site provides the broader project context. A connection to
-UT-REAL is planned; its public link will be added when that connection is ready.
+The [OASIS project site](https://jamiesonlabutsw.github.io/oasis/) provides the
+broader project context and guided tours; the
+[arXiv preprint](https://arxiv.org/abs/2609.09180) provides the technical report
+and citation. A connection to UT-REAL is planned; its public link will be added
+when that connection is ready.
 
 ## Demo catalog
 
