@@ -11,7 +11,18 @@ The guide covers grading, human review and Excel export, followed by
 [editing/uploading your own rubric and adding a note with the host](../hosted-guide.html#bring-your-own).
 Final browser walkthrough checks are still in progress.
 
-The installation steps below are for people setting up their own computer.
+## Cloud hosted or local install?
+
+| Option | Benefit | Tradeoff |
+| --- | --- | --- |
+| Cloud-hosted demo | Browser access, prepared examples and host-managed model access | Internet, external AI services, shared capacity and a temporary trial |
+| Local installation | Control your own OASIS instance, files and configuration | Matching kit, Docker, adequate hardware, maintenance, model setup and any provider costs |
+
+A local installation can still use cloud AI APIs. Fully offline use needs a
+separately configured and tested local model with enough hardware.
+
+The installation steps below are optional for hosted participants and are for
+people setting up their own computer.
 
 ## 1. Try an example
 

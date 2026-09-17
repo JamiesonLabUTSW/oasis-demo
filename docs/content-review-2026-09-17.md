@@ -76,3 +76,14 @@ The link publishes an address only. It includes no account names, passwords,
 login scheme, tokens, API keys or private evidence, and changes no application
 permissions or registration settings. The remaining saved-review browser check
 and external comparison compatibility are not newly claimed as passed.
+
+## Brief cloud/local comparison
+
+Added original benefit/tradeoff summaries for the ready hosted trial and an
+assisted local installation, with links to the appropriate next step. The
+library now labels its installation section explicitly as optional local setup.
+The comparison separates application hosting from model execution: installing
+OASIS locally does not establish offline inference or prevent use of cloud APIs.
+It makes no new hardware, privacy, cost, local-network sharing or installation
+acceptance claim. Existing public setup/runtime documentation supports the
+comparison; no private assets or configuration are copied.
