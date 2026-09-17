@@ -94,3 +94,16 @@ focus and reduced-motion preferences are supported.
 Validation includes wide/narrow browser inspection, keyboard answer disclosure,
 local link checks, note/download comparison, and the public-content inventory.
 The reviewed HTML hash is refreshed after inspecting this presentation change.
+
+## Project and paper cross-links
+
+Added visible OASIS project and arXiv links beside the demo introduction, in the
+footer, and in the README. The canonical paper URL is
+[arxiv.org/abs/2609.09180](https://arxiv.org/abs/2609.09180); its title and project
+link were verified on the live abstract page. These are navigation links,
+without copied paper text, media, or new downloadable content.
+
+The companion OASIS-site change points back to the existing public
+`oasis-demo` repository. A dedicated demo Pages URL is not yet live; update that
+return destination after hosting is published and verified, rather than adding
+a currently broken site link.
