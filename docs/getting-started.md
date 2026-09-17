@@ -1,5 +1,15 @@
 # Getting started
 
+## Joining a hosted session?
+
+Use the [hosted MAPLES participant guide](../hosted-guide.html). Your facilitator
+provides the HTTPS URL and your assigned account after launch checks. You need
+a browser and internet access; no local installation or personal model key is
+required. The guide covers a synthetic note, rubric, grading, human review and
+Excel export. Its draft status does not claim the hosted demo is already ready.
+
+The installation steps below are for people setting up their own computer.
+
 ## 1. Try an example
 
 Open the [notes practice](../demos/synthetic-notes/README.md) or `index.html`.

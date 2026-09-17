@@ -1,5 +1,19 @@
 # Facilitator guide
 
+## Hosted workshop handoff
+
+Give participants the [hosted MAPLES guide](../hosted-guide.html) and, separately,
+their own credentials. Before sharing a live sign-in link, verify ordinary login,
+the intended sample/group/rubric, one grading run, saved human review and an
+opened export. Check two accounts' workspace ownership. Confirm Wayfinder and
+media separately before advertising them as available.
+
+The public guide starts as a draft while deployment is in progress. Once the
+hosted workflow passes, update its availability notice and add the verified
+HTTPS sign-in link plus the trial closing time. Keep passwords, provider keys,
+private deployment evidence and generated access helpers out of the site.
+Remove or mark the demo link closed when the trial ends.
+
 ## A short first session
 
 1. Explain the loop: note → rubric → suggested evidence/score → human review →

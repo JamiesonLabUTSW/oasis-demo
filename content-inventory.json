@@ -23,6 +23,16 @@
       "policy_url": "https://www.cdc.gov/other/agencymaterials.html",
       "jurisdiction": "United States",
       "attribution": "Source: CDC. Material also available from CDC at no charge. Use and links do not imply endorsement by CDC, HHS, or the U.S. Government."
+    },
+    "hosted-guide-2026-09-17": {
+      "kind": "original-synthetic",
+      "creator": "OASIS demo guide contributors, with AI assistance",
+      "created_on": "2026-09-17",
+      "reviewed_on": "2026-09-17",
+      "rights": "Original repository documentation and fictional instructional prompt; existing root LICENSE applies. Not a public-domain dedication.",
+      "statement": "Original hosted-workflow instructions and a fictional rubric-writing prompt. No private guide assets, screenshots, records, rubric files, credentials or deployment evidence copied.",
+      "evidence": "docs/content-review-2026-09-17.md",
+      "readiness": "Guide draft; hosted MAPLES acceptance remains in progress and no live sign-in URL is advertised."
     }
   },
   "files": {
@@ -104,9 +114,20 @@
     "index.html": {
       "kind": "original-synthetic",
       "provenance": "synthetic-notes-2026-09-16",
-      "sha256": "b3fe03a9ed61c3a304116b5212dc3a7c257a89e727cd5bb7f5793cbc6e0edf37"
+      "sha256": "b6f978a955a251f0b1955e0c31645fb4334f4aa617e05b63a429a8da6462f43c"
     },
     "scripts/check_public_content.py": {
+      "kind": "governance"
+    },
+    "hosted-guide.html": {
+      "kind": "original-synthetic",
+      "provenance": "hosted-guide-2026-09-17",
+      "sha256": "bdb40ce2abd693194642d41e4f0b791fb4e9cd6df4db1ef011c4503e3a2cb77d"
+    },
+    "docs/content-review-2026-09-17.md": {
+      "kind": "documentation"
+    },
+    ".nojekyll": {
       "kind": "governance"
     }
   }
