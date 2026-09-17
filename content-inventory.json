@@ -30,17 +30,26 @@
       "kind": "governance"
     },
     "AGENTS.md": {
-      "kind": "governance"
+      "kind": "governance",
+      "sha256": "2a7bb369b5f9b85b5c4cfb9f608de220d5860dcf9232e369c14b91d5f20549c7",
+      "reviewed_on": "2026-09-17",
+      "scope": "Public agent audience, scope and exact evidence/publication workflow; no runtime or publication action authorized by documentation alone."
     },
     "CONTRIBUTING.md": {
-      "kind": "documentation"
+      "kind": "documentation",
+      "sha256": "d3952a5b6d5acf04e192d1e8497beff402ae5fa78d546938e9e18297b3fb073c",
+      "reviewed_on": "2026-09-17",
+      "scope": "Public contribution workflow for user/teacher documentation, admitted demo assets and bounded source/SBOM evidence; preserves current readiness distinctions."
     },
     "LICENSE": {
       "kind": "governance",
       "sha256": "82d55c07a6d092421ed3e7f7e02fee3636c507ab413085d8db54b7b3fab18b91"
     },
     "README.md": {
-      "kind": "documentation"
+      "kind": "documentation",
+      "sha256": "dfe516e5e58ded503e752bdef286634886a132b7606d4b66f8595dd6ffafe809",
+      "reviewed_on": "2026-09-17",
+      "scope": "Public audience reading path and published source-companion navigation; unchanged catalog assets and image selections."
     },
     "THIRD_PARTY_NOTICES": {
       "kind": "governance",
@@ -79,14 +88,32 @@
       "provenance": "synthetic-notes-2026-09-16",
       "sha256": "e8018203ac63f3a6045ec65eed72bcb01641810b9b7d0a963ebdd09eb79a729e"
     },
+    "docs/audience-guide.md": {
+      "kind": "documentation",
+      "sha256": "ad81a4fbc3629c8b1c9c3d7910994b71993777e4302a1e348e1b1014c6017980",
+      "reviewed_on": "2026-09-17",
+      "scope": "New plain-language user/teacher/developer/agent reading path, workflow vocabulary and source-media/result/export distinctions; no new demo input content."
+    },
     "docs/content-review-2026-09-16.md": {
       "kind": "documentation"
     },
+    "docs/content-review-arm64-2026-09-17.md": {
+      "kind": "documentation",
+      "sha256": "11c33887f6e1bebc5cffca4bc681f572ef9fd895ca204f64a718fc2e3f79143f",
+      "reviewed_on": "2026-09-17",
+      "scope": "Sanitized exact-image and release-archive content review summary; source-companion anonymous publication verified, image publication and recipient acceptance pending."
+    },
     "docs/facilitator-guide.md": {
-      "kind": "documentation"
+      "kind": "documentation",
+      "sha256": "6eda0eb26d2203cb1cd9922bedad66aefddbf17bfbf75d655f722efb220b7998",
+      "reviewed_on": "2026-09-17",
+      "scope": "Manual, saved-result and optional live teaching formats using existing admitted materials; preparation, discussion and recipient boundaries without new demo assets."
     },
     "docs/getting-started.md": {
-      "kind": "documentation"
+      "kind": "documentation",
+      "sha256": "0fed3268a61dd7b4eae23cafcbe2936502a5d846513a0d54f675ae585384394e",
+      "reviewed_on": "2026-09-17",
+      "scope": "Assisted recipient startup, named saved-result or explicitly agreed rehearsal, export verification and safe recovery; fresh kits need not have completed runs."
     },
     "docs/public-content-policy.md": {
       "kind": "documentation"
@@ -95,7 +122,36 @@
       "kind": "documentation"
     },
     "docs/support.md": {
-      "kind": "documentation"
+      "kind": "documentation",
+      "sha256": "1091b1704b135d4ead12dce947252ad99a97408263c3ccd507878c360874b516",
+      "reviewed_on": "2026-09-17",
+      "scope": "Audience-specific recovery and sanitized issue-reporting instructions; preserves installations and accurate current image availability."
+    },
+    "docs/third-party/4abb0bb2-arm64-r1/PUBLICATION.json": {
+      "kind": "governance",
+      "sha256": "ba58ba9b6bdcb9018523b9a8ebb56f794bd87562e80234dd289c885159dbbf23",
+      "reviewed_on": "2026-09-17",
+      "scope": "Sanitized completed anonymous source-companion release verification; asset names, byte counts, hashes and timestamps only. No image-publication or recipient-acceptance claim."
+    },
+    "docs/third-party/4abb0bb2-arm64-r1/README.md": {
+      "kind": "documentation",
+      "sha256": "09c67fec7ccb0fe2e07aa08023550053e0951b72189fa4359497710e7d93de60",
+      "reviewed_on": "2026-09-17",
+      "scope": "Reviewed immutable third-party evidence/source snapshot instructions and license distinctions; no private host paths or acquisition receipts."
+    },
+    "docs/third-party/4abb0bb2-arm64-r1/SOURCE-LICENSE-MANIFEST.json": {
+      "kind": "governance",
+      "sha256": "e7cf0814b16eedde6c8dc0ea6c45a1705982f66bf324506be537e351ed9c03a1",
+      "reviewed_on": "2026-09-17",
+      "scope": "Exact reviewed ARM64 third-party evidence bindings, archive identities and explicit source/notice limits; not a demo asset."
+    },
+    "images-arm64.json": {
+      "kind": "runtime-manifest",
+      "sha256": "c94329edff8622b45b4b74e013e64e6c1ad72f22f939f4378ec55b16af1e40fb",
+      "application_commit": "4abb0bb242228c528ef23876dd8746f3470882b3",
+      "platform": "linux/arm64",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "provenance": "Exact native ARM64 runnable image selection; scoped content and third-party evidence review passed. Namespace copies and anonymous image verification pending. See docs/runtime.md."
     },
     "images.json": {
       "kind": "runtime-manifest",
@@ -104,7 +160,7 @@
     "index.html": {
       "kind": "original-synthetic",
       "provenance": "synthetic-notes-2026-09-16",
-      "sha256": "b3fe03a9ed61c3a304116b5212dc3a7c257a89e727cd5bb7f5793cbc6e0edf37"
+      "sha256": "bfa880c2f9d5096520a18e118832a73c66388e5c1f31cbaa7aa1271e6556d703"
     },
     "scripts/check_public_content.py": {
       "kind": "governance"

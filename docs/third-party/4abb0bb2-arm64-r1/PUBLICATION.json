@@ -1,0 +1,25 @@
+{
+  "schema_version": "oasis.third-party-release-publication.v1",
+  "status": "PUBLISHED_ANONYMOUS_VERIFIED",
+  "scope": "Third-party evidence/source release assets only. Image publication and recipient installation are separate.",
+  "release_url": "https://github.com/JamiesonLabUTSW/oasis-demo/releases/tag/4abb0bb2-arm64-r1",
+  "published_at": "2026-09-17T01:55:24Z",
+  "verified_at": "2026-09-17T01:56:01.092479+00:00",
+  "verification": "Full anonymous downloads in an empty environment with no Authorization header or credential configuration; downloaded byte counts and SHA-256 matched the frozen asset manifest.",
+  "assets": [
+    {
+      "file": "oasis-arm64-4abb0bb2-third-party-evidence-r1-sources.zip",
+      "bytes": 193502505,
+      "sha256": "cf6706e72241752add1a433ff25d7a8893dec7cd8be61a7ccad552295a62c82a",
+      "anonymous_download": "PASS"
+    },
+    {
+      "file": "oasis-arm64-4abb0bb2-third-party-evidence-r1.zip",
+      "bytes": 7067501,
+      "sha256": "c9827ccb1afcb0aa028668931f0fe70111273b4cf03266f2bc7edddb77b12e56",
+      "anonymous_download": "PASS"
+    }
+  ],
+  "application_source": "4abb0bb242228c528ef23876dd8746f3470882b3",
+  "platform": "linux/arm64"
+}
