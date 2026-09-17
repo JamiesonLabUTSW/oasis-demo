@@ -9,6 +9,10 @@ partner packets, real learner notes, and credentials do not belong here.
 
 ## Start here
 
+**First read [Start here: choose your path](docs/audience-guide.md).** It explains
+the shared workflow and vocabulary, then points users, teachers, developers and
+agents to the right next guide.
+
 | You want to… | Go here |
 | --- | --- |
 | Learn about the OASIS project | [OASIS project site](https://jamiesonlabutsw.github.io/oasis/) |
@@ -67,7 +71,9 @@ Optional MCP and its unresolved reference materials are excluded. Institutional
 rubrics, private recordings, learner data, and workshop packets stay outside
 public images and kits; any authorized material handoff is separate.
 
-[Getting started](docs/getting-started.md) · [Runtime details](docs/runtime.md)
+[Getting started](docs/getting-started.md) · [Runtime details](docs/runtime.md) ·
+[Published ARM64 source/license companion](docs/third-party/4abb0bb2-arm64-r1/README.md)
+([verified availability](docs/third-party/4abb0bb2-arm64-r1/PUBLICATION.json))
 
 ## Public content and terms
 
