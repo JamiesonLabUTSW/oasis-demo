@@ -74,3 +74,23 @@ homepage and GitHub Pages configuration; its live page identifies OASIS and
 MAPLES. UT-REAL is noted as a planned connection with no speculative link or
 claim of deployment readiness. This edit adds navigation only, not new demo
 content or embedded assets.
+
+## Visual refresh and OASIS theme alignment
+
+The demo page now follows the public [OASIS project site's](https://jamiesonlabutsw.github.io/oasis/)
+visual palette: dark blue-green navigation, warm cream/sand surfaces, teal
+actions, gold/coral accents, and system sans-serif type. The palette and type
+were checked against the live site's rendered styles and public stylesheet.
+The layout and inline SVG illustrations were authored for this repository;
+there are no added image files, external fonts, scripts, or media dependencies.
+
+The opening uses the existing synthetic Note A with highlighted evidence,
+explicitly labeled an authored illustrative example. Demo cards have distinct
+icons, notes appear side by side on wide screens, and setup has a separate
+dark section. All existing link destinations and downloadable note text are
+retained. Decorative icons are hidden from assistive technology; keyboard
+focus and reduced-motion preferences are supported.
+
+Validation includes wide/narrow browser inspection, keyboard answer disclosure,
+local link checks, note/download comparison, and the public-content inventory.
+The reviewed HTML hash is refreshed after inspecting this presentation change.

@@ -104,7 +104,7 @@
     "index.html": {
       "kind": "original-synthetic",
       "provenance": "synthetic-notes-2026-09-16",
-      "sha256": "588643d76c43e170f9ff03d5a69e2c8aa14d3b9c28197b4643b6951d00d9b250"
+      "sha256": "66feb422bde0b8f8b7f25be7fe74cf2e0de5bd9241c99ebdfac1f33ac696e1f8"
     },
     "scripts/check_public_content.py": {
       "kind": "governance"
