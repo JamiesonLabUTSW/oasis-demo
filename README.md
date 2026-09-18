@@ -31,8 +31,8 @@ separate: a published guide does not mean the trial is open yet.
 The [OASIS project site](https://jamiesonlabutsw.github.io/oasis/) provides the
 broader project context and guided tours; the
 [arXiv preprint](https://arxiv.org/abs/2609.09180) provides the technical report
-and citation. A connection to UT-REAL is planned; its public link will be added
-when that connection is ready.
+and citation. The [UT-REAL project](https://ut-real-ai-project-maples.com/)
+provides participating-site information, research and MAPLES walkthroughs.
 
 ## Demo catalog
 
