@@ -87,3 +87,11 @@ OASIS locally does not establish offline inference or prevent use of cloud APIs.
 It makes no new hardware, privacy, cost, local-network sharing or installation
 acceptance claim. Existing public setup/runtime documentation supports the
 comparison; no private assets or configuration are copied.
+
+## UT-REAL public link — September 18
+
+Added owner-requested links to the verified public UT-REAL project homepage in
+the library navigation, facilitator section, footer and README. Replaced the
+old pending-link placeholder. This is an external link only; no third-party
+content, media, private data or credentials are copied or embedded. Existing
+licenses, notices, demo assets and image pins are unchanged.
