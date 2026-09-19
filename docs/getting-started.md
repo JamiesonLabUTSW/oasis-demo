@@ -6,10 +6,15 @@ Use the [hosted MAPLES participant guide](../hosted-guide.html) and
 [open the hosted demo](https://136-65-236-41.sslip.io). Your facilitator
 provides your assigned account privately. Public registration is closed. You need
 a browser and internet access; no local installation or personal model key is
-required. Start with the prepared group and **Trial documentation quality** rubric.
-The guide covers grading, human review and Excel export, followed by
-[editing/uploading your own rubric and adding a note with the host](../hosted-guide.html#bring-your-own).
-Final browser walkthrough checks are still in progress.
+required. Every account starts with a completed run of the prepared group and
+**Trial documentation quality** rubric. The guide covers opening that run,
+human review and Excel export, then a second pass:
+[change the rubric](../hosted-guide.html#change) (Excel, Enhance, Transform,
+Wayfinder or the Create Rubric form), run it again on the same note, compare
+the two exports, and [try another model](../hosted-guide.html#model). A
+[rubric template and sample rubric](../demos/rubric-template/README.md) are
+downloadable, and [adding a note with the host](../hosted-guide.html#bring-your-own)
+is covered separately. Final browser walkthrough checks are still in progress.
 
 ## Cloud hosted or local install?
 
