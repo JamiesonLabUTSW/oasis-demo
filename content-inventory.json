@@ -28,11 +28,11 @@
       "kind": "original-synthetic",
       "creator": "OASIS demo guide contributors, with AI assistance",
       "created_on": "2026-09-17",
-      "reviewed_on": "2026-09-19",
+      "reviewed_on": "2026-09-21",
       "rights": "Original repository documentation and fictional instructional prompt; existing root LICENSE applies. Not a public-domain dedication.",
-      "statement": "Original hosted-workflow instructions in three parts (first pass; change the rubric, rerun and compare; same rubric with another model), workbook-editing and host-assisted upload instructions, and a fictional chest-pain note-documentation rubric prompt. Interface labels and model identifiers checked against the selected application source. No private guide assets, screenshots, records, credentials or deployment evidence copied.",
-      "evidence": "docs/content-review-2026-09-17.md",
-      "readiness": "Invited trial login URL published at the owner\u2019s request. Second-pass and model-choice instructions are source-checked; per-run timing is approximate and cohort-wide timing is unmeasured; external comparison workbook compatibility remains unverified."
+      "statement": "Original participant instructions for general invited demos: notes, saved transcript and audio/video paths, personal rubric experiments, review and export. Host supplies access and available models. No private records, transcript bytes, media, new workbook or credentials copied.",
+      "evidence": "docs/content-review-2026-09-21.md",
+      "readiness": "General-demo guide revision for owner review; static documentation and source-label checks only. Live instance, account preparation and grading/review/export acceptance remain host responsibilities."
     },
     "rubric-template-2026-02-19": {
       "kind": "original-synthetic",
@@ -124,7 +124,7 @@
     "index.html": {
       "kind": "original-synthetic",
       "provenance": "synthetic-notes-2026-09-16",
-      "sha256": "ed5c1589afbdd42d6a79999dfc0bea220fa7b90c11758b6c8f8f7aeb7d31724e"
+      "sha256": "8a70c58be5cf19ed3496b632ad5edee9ea6f19986e44d1a5105edba633425a46"
     },
     "scripts/check_public_content.py": {
       "kind": "governance"
@@ -132,7 +132,7 @@
     "hosted-guide.html": {
       "kind": "original-synthetic",
       "provenance": "hosted-guide-2026-09-17",
-      "sha256": "5f9be3668b6d3ed7e941c10ee4d4f50d5b7a42bf393d885b8df73946d2692277"
+      "sha256": "260e7ac44fe54c84b9a64b6f873ea4007adac2add5852b1135485253d116c656"
     },
     "docs/content-review-2026-09-17.md": {
       "kind": "documentation"
@@ -154,6 +154,9 @@
       "kind": "original-synthetic",
       "provenance": "rubric-template-2026-02-19",
       "sha256": "f6a054162b13499715c6071bbed258c4779a1f4e3e0bfccee4a7832dd93af145"
+    },
+    "docs/content-review-2026-09-21.md": {
+      "kind": "documentation"
     }
   }
 }

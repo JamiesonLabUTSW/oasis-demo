@@ -14,7 +14,7 @@ partner packets, real learner notes, and credentials do not belong here.
 | Learn about the OASIS project | [OASIS project site](https://jamiesonlabutsw.github.io/oasis/) |
 | Read and cite the technical report | [OASIS preprint on arXiv](https://arxiv.org/abs/2609.09180) |
 | Explore the library | [Demo website](https://jamiesonlabutsw.github.io/oasis-demo/) · [Offline start page](index.html) |
-| Join the hosted MAPLES demo | [Participant guide](https://jamiesonlabutsw.github.io/oasis-demo/hosted-guide.html) · [Offline copy](hosted-guide.html) — prepared-example quick start, rubric editing and host-assisted data uploads. [Open MAPLES demo](https://136-65-236-41.sslip.io) — assigned account required |
+| Join the hosted MAPLES demo | [Participant guide](https://jamiesonlabutsw.github.io/oasis-demo/hosted-guide.html) · [Offline copy](hosted-guide.html) — notes, transcript and video practice; personal rubrics, review and export. Use the sign-in link and individual account supplied by your host |
 | Try a short notes exercise | [Three fictional notes and an original practice rubric](demos/synthetic-notes/README.md) |
 | Find a public-domain recording | [CDC conversation: source and attribution](demos/cdc-conversation.md) |
 | Install OASIS/MAPLES | [Getting started](docs/getting-started.md) — assisted package required |
