@@ -3,18 +3,21 @@
 ## Joining a hosted session?
 
 Use the [hosted MAPLES participant guide](../hosted-guide.html) and
-[open the hosted demo](https://136-65-236-41.sslip.io). Your facilitator
+open the sign-in link in your invitation. Your facilitator
 provides your assigned account privately. Public registration is closed. You need
 a browser and internet access; no local installation or personal model key is
-required. Every account starts with a completed run of the prepared group and
-**Trial documentation quality** rubric. The guide covers opening that run,
-human review and Excel export, then a second pass:
+required for the host-managed route. Your invitation identifies the available
+examples, model access, usage allowance and access end date. Choose a
+[note, transcript or video exercise](../hosted-guide.html#examples). The guide
+covers opening a prepared run or starting one, human review and Excel export,
+then a second pass:
 [change the rubric](../hosted-guide.html#change) (Excel, Enhance, Transform,
 Wayfinder or the Create Rubric form), run it again on the same note, compare
 the two exports, and [try another model](../hosted-guide.html#model). A
 [rubric template and sample rubric](../demos/rubric-template/README.md) are
 downloadable, and [adding a note with the host](../hosted-guide.html#bring-your-own)
-is covered separately. Final browser walkthrough checks are still in progress.
+is covered separately. The host must verify the selected exercise on the actual
+demo site before inviting participants to use it.
 
 ## Cloud hosted or local install?
 
