@@ -43,3 +43,12 @@ Prepared as a general-demo guide revision for owner review. Publishing the guide
 does not provision access. The general-demo banner may link to the stable
 `hosted-guide.html` URL after this revision is published. Dedicated deployments
 retain their separately distributed invitation links and content arrangements.
+
+## September 22 footer notice
+
+Added the owner-requested literal notice `(Multiple Patents Pending)` beneath
+OASIS / MAPLES in the demo-library and hosted-participant-guide footers. Reviewed
+the two HTML diffs before refreshing their inventory hashes. Added a short, conditional instruction for using the optional sidebar feedback
+form and its account/time/page capture. These are text-only instructions and a
+notice; no new assets, external requests, private content, or runtime changes.
+The license, third-party notices and frozen image manifest are unchanged.
