@@ -56,3 +56,9 @@ THIRD_PARTY_NOTICES. They are licensed application UI code/assets, separate
 from the original synthetic teaching illustrations described above. The
 palette values are the corresponding Tailwind 4.1 theme scales used by MAPLES.
 No demo data, examples, grading behavior or external dependencies changed.
+
+## Exercise and results revision
+
+Reviewed the added fourth (Audio) card, sign-in launcher, capability-gated same-origin exercise links, rubric-copy instructions and four-step results explainer. The quote about explaining a plan, its criterion and 1–3 teaching scale are newly authored fictional illustrations, not extracted from the CDC recording. The bundle still reads no auth storage, performs no API call, embeds no account identifier and invokes no model. Only an authenticated MAPLES application resolves account-owned exercises. Older applications keep manual navigation.
+
+The audio instructions in `hosted-guide.html` reference the separately prepared host pack; no audio, workbook, transcript or runtime data is copied into this public repository. Deployment availability is explicitly conditional on host preparation. Third-party icon notices are unchanged. The copy action is documented conditionally for supported sites.
