@@ -62,3 +62,14 @@ No demo data, examples, grading behavior or external dependencies changed.
 Reviewed the added fourth (Audio) card, sign-in launcher, capability-gated same-origin exercise links, rubric-copy instructions and four-step results explainer. The quote about explaining a plan, its criterion and 1–3 teaching scale are newly authored fictional illustrations, not extracted from the CDC recording. The bundle still reads no auth storage, performs no API call, embeds no account identifier and invokes no model. Only an authenticated MAPLES application resolves account-owned exercises. Older applications keep manual navigation.
 
 The audio instructions in `hosted-guide.html` reference the separately prepared host pack; no audio, workbook, transcript or runtime data is copied into this public repository. Deployment availability is explicitly conditional on host preparation. Third-party icon notices are unchanged. The copy action is documented conditionally for supported sites.
+
+## Site availability labels
+
+Reviewed the small generic extension for hosted practice-availability labels and
+setup guidance. Hosts supply a public format list; this repository contains no
+site/account inventory. Unavailable examples retain their illustrated tours.
+Rubric navigation updates when the overlay opens, so sign-in/out does not leave
+a stale destination. The standalone guide retains all four educational paths.
+No new teaching data, imagery, dependency, storage access or API call is added.
+Inventory and syntax checks pass; embedded labels and links were checked in
+synthetic browser shells. Live signed-in site acceptance is separate.
