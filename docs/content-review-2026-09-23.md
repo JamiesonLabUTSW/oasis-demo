@@ -43,3 +43,16 @@ Inventory, syntax, desktop/narrow layout, modal controls and keyboard navigation
 are checked for this static publication. Host runtime installation and account
 acceptance are separate; no new inference is needed or claimed. Frozen image
 manifests, LICENSE, and THIRD_PARTY_NOTICES are unchanged.
+
+## Modality colors and icons revision
+
+At the owner's request, note uses MAPLES amber/yellow, transcript green, video
+purple, and audio blue across cards, tours, format selectors and next steps.
+The palette follows `ResultItemCard.tsx`; exact Lucide StickyNote, Languages,
+Film and Headphones paths follow the MAPLES encounter/group UI. Four small
+SVG glyphs were reviewed from the installed `lucide-react` 0.563.0 package.
+Their ISC and applicable Feather MIT notices are preserved in the bundle and
+THIRD_PARTY_NOTICES. They are licensed application UI code/assets, separate
+from the original synthetic teaching illustrations described above. The
+palette values are the corresponding Tailwind 4.1 theme scales used by MAPLES.
+No demo data, examples, grading behavior or external dependencies changed.

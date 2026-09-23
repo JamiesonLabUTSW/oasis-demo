@@ -49,8 +49,8 @@
       "creator": "OASIS demo guide contributors, with AI assistance",
       "created_on": "2026-09-23",
       "reviewed_on": "2026-09-23",
-      "rights": "Original authored teaching content and CSS illustrations; existing root LICENSE applies. Not a public-domain dedication.",
-      "statement": "Original fictional snippets, illustrative criteria, suggested scores, timestamps and drawings expressly created for this public guide. No private records, institutional rubric, real media, transcript, screenshot, credentials or logos copied. Owner approved publication.",
+      "rights": "Original authored teaching content and CSS illustrations under the root LICENSE. Embedded Lucide UI icons retain ISC/Feather MIT notices in the bundle and THIRD_PARTY_NOTICES. Not a public-domain dedication.",
+      "statement": "Original fictional snippets, illustrative criteria, suggested scores, timestamps and drawings expressly created for this public guide. No private records, institutional rubric, real media, transcript, screenshot, credentials or logos copied. Owner approved publication. Matching modality UI icon paths are from lucide-react 0.563.0, independently licensed application assets; see the content review and third-party notices.",
       "evidence": "docs/content-review-2026-09-23.md",
       "readiness": "Static educational guide. No account provisioning, model call, grading result or live workspace availability is implied."
     }
@@ -74,7 +74,7 @@
     },
     "THIRD_PARTY_NOTICES": {
       "kind": "governance",
-      "sha256": "df3c216dbe2e9e176d4af13680b683f0756170b3099234b067262b04f3de494e"
+      "sha256": "f010bd482cbc3ec7fb13fa6c5f67cdc9d51e44047d962f80d97eb5fc3dda1d85"
     },
     "content-inventory.json": {
       "kind": "governance"
@@ -171,12 +171,12 @@
     "start-here.html": {
       "kind": "original-synthetic",
       "provenance": "starter-guide-2026-09-23",
-      "sha256": "80ebc53d8cc4cb8b511e5ddf35768fec30a14a1c74999b61a06d0735d1e26270"
+      "sha256": "da3cba118f33a04e1b240f3ac3d4b373a81de95e5f1b3fd0c6009a6ad3ebb541"
     },
     "assets/starter-guide.js": {
       "kind": "original-synthetic",
       "provenance": "starter-guide-2026-09-23",
-      "sha256": "4d584aa8efb1d09b64cbab2bcbceb70b3b1422e4ec2bec884f494105ffba4537"
+      "sha256": "4f52f978fad7d6b9e671d5d80798b3244901044d8c6c7fb800259c230d16721d"
     },
     "docs/content-review-2026-09-23.md": {
       "kind": "documentation"
