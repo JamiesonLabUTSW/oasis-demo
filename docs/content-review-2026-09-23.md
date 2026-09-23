@@ -73,3 +73,11 @@ a stale destination. The standalone guide retains all four educational paths.
 No new teaching data, imagery, dependency, storage access or API call is added.
 Inventory and syntax checks pass; embedded labels and links were checked in
 synthetic browser shells. Live signed-in site acceptance is separate.
+
+## Animated sidebar correction
+
+The hosted launcher now observes sidebar width through its collapse/expand
+animation, hiding its label at compact width while retaining the accessible
+name and tooltip. The observer disconnects when the sidebar disappears. The
+standalone page is unchanged. No content, dependency, data access or API call
+is added. Animated synthetic-shell browser checks and JavaScript syntax passed.

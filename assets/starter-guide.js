@@ -323,7 +323,10 @@ function installGuide() {
   if(window.__oasisStarterGuideInstalled) return;
   window.__oasisStarterGuideInstalled=true;
   if(document.querySelector('[data-oasis-starter-guide]')) {buildGuide(false);return;}
-  var guide=null;
+  var guide=null, observedSidebar=null;
+  // The application animates sidebar width after its React DOM update.
+  // Observe its final size as well as the mutations that start the transition.
+  var sidebarObserver=typeof ResizeObserver==='function'?new ResizeObserver(sync):null;
   function sync() {
     var loginLink=document.getElementById('oasis-starter-login-link');
     var loginForm=location.pathname==='/login'&&document.querySelector('form input[type="password"]');
@@ -338,8 +341,10 @@ function installGuide() {
     var nav=sidebar&&sidebar.querySelector('nav');
     var link=document.getElementById('oasis-starter-guide-link');
     if(!nav||!sidebar.querySelector('button[aria-label="Log out"]')) {
+      if(sidebarObserver)sidebarObserver.disconnect();observedSidebar=null;
       if(link)link.remove(); if(guide&&!loginForm)guide.close(); return;
     }
+    if(sidebarObserver&&observedSidebar!==sidebar){sidebarObserver.disconnect();sidebarObserver.observe(sidebar);observedSidebar=sidebar;}
     if(link&&link.parentElement!==nav) {link.remove();link=null;}
     if(!link) {
       var template=nav.querySelector('a[href="/user-guide"]');
