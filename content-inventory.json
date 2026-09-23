@@ -171,12 +171,12 @@
     "start-here.html": {
       "kind": "original-synthetic",
       "provenance": "starter-guide-2026-09-23",
-      "sha256": "7f60cec7f84c28e4c4947f70cf43e64706d861b4d764c867c81b245bd3383bac"
+      "sha256": "b9e067030015b320947a11f5d52efd943d661905e5e3705fca737079212ac2d7"
     },
     "assets/starter-guide.js": {
       "kind": "original-synthetic",
       "provenance": "starter-guide-2026-09-23",
-      "sha256": "5043c291edec88fe2f5f06ca157db744ab89ec9b22eddd2ac83283166b811e3e"
+      "sha256": "97d2a45be2c002dbb12e5d6ddc3432f7fca17e4abbcddf5fe77f3f3765ca980f"
     },
     "docs/content-review-2026-09-23.md": {
       "kind": "documentation"
