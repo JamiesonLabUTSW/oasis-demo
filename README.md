@@ -77,3 +77,7 @@ domain. External public-domain material retains its own status.
 
 These are academic demonstration materials and unsigned frozen images, not a
 production release, medical device, or independently validated assessment system.
+
+## Animated quick start
+
+[Start here](start-here.html) introduces notes, audio, video and transcripts through optional illustrated tours. All snippets, scores and timestamps in the animations are fictional. Your host supplies the actual practice material and model access. See the [content review](docs/content-review-2026-09-23.md).

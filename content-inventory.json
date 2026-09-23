@@ -43,6 +43,16 @@
       "statement": "Blank rubric template (sheets _metadata, _mapping, Station1; full column set; one placeholder row) and the fictional documentation-quality sample rubric (six Note criteria, scores 1 to 3) exported unchanged from the project's sample rubric set. Every sheet, cell and package part inspected: no hidden sheets, comments, macros, embedded media, personal metadata, private case content, institutional rubric or third-party instrument.",
       "evidence": "demos/rubric-template/README.md",
       "readiness": "Static downloads for the rubric-upload path described in the hosted guide; the sample is the workbook the hosted demo loads as its starter rubric. No new grading run, upload or acceptance result is claimed."
+    },
+    "starter-guide-2026-09-23": {
+      "kind": "original-synthetic",
+      "creator": "OASIS demo guide contributors, with AI assistance",
+      "created_on": "2026-09-23",
+      "reviewed_on": "2026-09-23",
+      "rights": "Original authored teaching content and CSS illustrations; existing root LICENSE applies. Not a public-domain dedication.",
+      "statement": "Original fictional snippets, illustrative criteria, suggested scores, timestamps and drawings expressly created for this public guide. No private records, institutional rubric, real media, transcript, screenshot, credentials or logos copied. Owner approved publication.",
+      "evidence": "docs/content-review-2026-09-23.md",
+      "readiness": "Static educational guide. No account provisioning, model call, grading result or live workspace availability is implied."
     }
   },
   "files": {
@@ -124,7 +134,7 @@
     "index.html": {
       "kind": "original-synthetic",
       "provenance": "synthetic-notes-2026-09-16",
-      "sha256": "5f6c152e0263562ef5e08f942b8a61cb65eec36e3a09a441e0fbceb86591ee5e"
+      "sha256": "9bd258ba5fb40df19b5ea7085815faf6726f42293db0afd8fee4e5e12539692e"
     },
     "scripts/check_public_content.py": {
       "kind": "governance"
@@ -132,7 +142,7 @@
     "hosted-guide.html": {
       "kind": "original-synthetic",
       "provenance": "hosted-guide-2026-09-17",
-      "sha256": "3c38c8722f5b0524c099f01ec5eacbdda79c774c3ed6976f62efb6eb05e35277"
+      "sha256": "983f12e6c75d5b366ce1d06d03ae60a52990653d7b30d2d4543f3ee101ec361b"
     },
     "docs/content-review-2026-09-17.md": {
       "kind": "documentation"
@@ -156,6 +166,19 @@
       "sha256": "f6a054162b13499715c6071bbed258c4779a1f4e3e0bfccee4a7832dd93af145"
     },
     "docs/content-review-2026-09-21.md": {
+      "kind": "documentation"
+    },
+    "start-here.html": {
+      "kind": "original-synthetic",
+      "provenance": "starter-guide-2026-09-23",
+      "sha256": "80ebc53d8cc4cb8b511e5ddf35768fec30a14a1c74999b61a06d0735d1e26270"
+    },
+    "assets/starter-guide.js": {
+      "kind": "original-synthetic",
+      "provenance": "starter-guide-2026-09-23",
+      "sha256": "4d584aa8efb1d09b64cbab2bcbceb70b3b1422e4ec2bec884f494105ffba4537"
+    },
+    "docs/content-review-2026-09-23.md": {
       "kind": "documentation"
     }
   }
