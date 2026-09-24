@@ -81,3 +81,13 @@ animation, hiding its label at compact width while retaining the accessible
 name and tooltip. The observer disconnects when the sidebar disappears. The
 standalone page is unchanged. No content, dependency, data access or API call
 is added. Animated synthetic-shell browser checks and JavaScript syntax passed.
+
+
+## Access-request wording — 24 September
+
+Reviewed the owner-approved access-request sentence and public Google Form
+responder link in the hosted guide. Removed the superseded instruction to
+ignore Create Account. The form opens in a separate tab with noopener and
+noreferrer. No form is embedded; no requester details, editor link, account
+information, new media or dependencies are published. The guide and its
+existing no-login exercise remain accessible without requesting an account.
