@@ -19,6 +19,17 @@ downloadable, and [adding a note with the host](../hosted-guide.html#bring-your-
 is covered separately. The host must verify the selected exercise on the actual
 demo site before inviting participants to use it.
 
+The current sign-in addresses are [General demo](https://demo.ut-real-ai-project-maples.com/login)
+and [UVM](https://uvm.ut-real-ai-project-maples.com/login). Choose the one named
+in your invitation; use your invitation's URL for another hosted site. Older
+general/UVM bookmarks redirect. Sign in again with your existing account if
+prompted and save the new address.
+
+Don't have an account? [Request access](https://docs.google.com/forms/d/e/1FAIpQLSfv-_yJomKEkmZOFRB7307sOXujuIQ7vnmQ_kIxgWDl3pLRoQ/viewform)
+— we'll email you an invitation if we can offer one. The link on each hosted
+sign-in page pre-fills its site. Submitting the form does not create an account.
+For sign-in or media-loading problems, see the [guide's help section](../hosted-guide.html#help).
+
 ## Cloud hosted or local install?
 
 | Option | Benefit | Tradeoff |
