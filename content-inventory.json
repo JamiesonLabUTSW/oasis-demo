@@ -142,7 +142,7 @@
     "hosted-guide.html": {
       "kind": "original-synthetic",
       "provenance": "hosted-guide-2026-09-17",
-      "sha256": "9160ac5921c92952c2a14b9e731bae459ecd86a82784db1f540785e8dd9034ba"
+      "sha256": "ef05ed3dfb9eb6bdfb2008cfc7c137e11baac6c8223a197909fac9a596c13a3f"
     },
     "docs/content-review-2026-09-17.md": {
       "kind": "documentation"
@@ -171,7 +171,7 @@
     "start-here.html": {
       "kind": "original-synthetic",
       "provenance": "starter-guide-2026-09-23",
-      "sha256": "7684d22a75c97465d9e2a90b7885efd55e94383668b77a3180a6200253aeb82a"
+      "sha256": "973935042ed967bddf3a5402a3a3ce5d109dc2a0159369ce38dffa608c69d3fb"
     },
     "assets/starter-guide.js": {
       "kind": "original-synthetic",

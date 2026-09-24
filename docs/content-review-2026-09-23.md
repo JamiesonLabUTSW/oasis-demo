@@ -91,3 +91,14 @@ ignore Create Account. The form opens in a separate tab with noopener and
 noreferrer. No form is embedded; no requester details, editor link, account
 information, new media or dependencies are published. The guide and its
 existing no-login exercise remain accessible without requesting an account.
+
+
+## Hosted sign-in hostnames — 24 September
+
+Reviewed the owner-approved general and UVM sign-in destinations on the
+participant guide and standalone Start here page. Links use the new UT-REAL
+hostnames and identify the two separate sites; users are directed to the site
+named in their invitation. Other sites retain their invitation URLs. No
+Google Form link or wording, credential, learner content, media, dependency,
+image manifest or licence change. Embedded guide navigation stays relative
+to its host. Old public bookmarks are handled by the deployment redirect.
