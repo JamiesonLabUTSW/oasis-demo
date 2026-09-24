@@ -28,6 +28,17 @@ analytics. Read them on the demo website, or download the repository and open
 HTML source. The documentation website and the invited MAPLES application are
 separate: a published guide does not mean the trial is open yet.
 
+Hosted sign-in: [General demo](https://demo.ut-real-ai-project-maples.com/login)
+· [UVM](https://uvm.ut-real-ai-project-maples.com/login). Use the site named in
+your invitation; other hosted sites have their own invitation links. Older
+general/UVM bookmarks redirect to these addresses. You may need to sign in again
+with your existing account after the address changes.
+
+Don't have an account? [Request access](https://docs.google.com/forms/d/e/1FAIpQLSfv-_yJomKEkmZOFRB7307sOXujuIQ7vnmQ_kIxgWDl3pLRoQ/viewform)
+— we'll email you an invitation if we can offer one. Each hosted sign-in page's
+Request access link fills in its site on the same form. A request does not create
+an account; public registration remains closed.
+
 The [OASIS project site](https://jamiesonlabutsw.github.io/oasis/) provides the
 broader project context and guided tours; the
 [arXiv preprint](https://arxiv.org/abs/2609.09180) provides the technical report

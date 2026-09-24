@@ -47,3 +47,19 @@ Runtime/image/platform changes require separate release evidence. Preserve the
 existing license/notices and frozen image selection during site edits.
 Keep actual site journals in the host's approved private workspace.
 Follow the [support guide](docs/support.md) for public reports.
+
+## Hosted access documentation
+
+When an approved hosted address or access path changes, update the README,
+getting-started page, hosted guide and standalone Start here links together.
+Tell participants to use the site in their invitation and their assigned
+account. Explain redirects, a possible fresh sign-in and reopening an encounter
+for a fresh media link without exposing deployment settings or signed URLs.
+Keep the approved Request access wording and responder destination consistent;
+do not publish form editor links or describe intake as account provisioning.
+
+Review the changed content before updating inventory hashes. Validate local
+links and HTML anchors, check the changed guide on desktop/mobile, and inspect
+public links without submitting access requests. After merge, confirm Pages
+completed and the served guide matches the reviewed bytes. Deployment and
+authenticated playback acceptance are separate checks recorded privately.

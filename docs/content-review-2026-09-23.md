@@ -102,3 +102,19 @@ named in their invitation. Other sites retain their invitation URLs. No
 Google Form link or wording, credential, learner content, media, dependency,
 image manifest or licence change. Embedded guide navigation stays relative
 to its host. Old public bookmarks are handled by the deployment redirect.
+
+
+## Access and hostname documentation completion — 24 September
+
+Reviewed README/getting-started navigation and the guide's redirect, fresh-sign-in
+and media-reopen instructions. Existing assigned accounts remain the route; the
+approved Request access sentence and form destination are unchanged. New wording
+describes recovery without another grading run and excludes signed download URLs
+from support reports. Agent/contributor guidance separates public instructions
+from private runtime procedures and deployment journals. No operator paths,
+private receipts, account records, media, credentials, scripts or dependencies
+were added. The frozen image manifest, licences and notices are unchanged.
+
+This is documentation of the existing hosted access flow. Static/browser checks
+validate the guide; they do not establish new authenticated media playback or
+invitation functionality.
