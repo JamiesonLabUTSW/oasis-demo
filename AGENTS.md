@@ -31,3 +31,11 @@ Keep explanations of sign-in and media recovery user-facing. Runtime settings,
 backup paths, operator commands and deployment evidence belong in the private
 deployment repository, not this public site. The frozen download image manifest
 does not identify every currently hosted application's version.
+
+For model or thinking-level questions, start at
+[the participant model section](hosted-guide.html#model) and
+[facilitator verification](docs/facilitator-guide.md#model-choices-before-a-session).
+Use [the contributor ownership guide](CONTRIBUTING.md#maintaining-model-instructions)
+to route application, deployment and public documentation changes. Keep defaults,
+site exceptions and actual acceptance separate; never infer provider success
+from a selectable menu item.

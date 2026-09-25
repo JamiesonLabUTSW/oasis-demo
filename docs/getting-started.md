@@ -13,7 +13,9 @@ covers opening a prepared run or starting one, human review and Excel export,
 then a second pass:
 [change the rubric](../hosted-guide.html#change) (Excel, Enhance, Transform,
 Wayfinder or the Create Rubric form), run it again on the same note, compare
-the two exports, and [try another model](../hosted-guide.html#model). A
+the two exports, and [choose a model and thinking level](../hosted-guide.html#model), including Flash
+high/medium/low, Sol medium/high/extra-high and Luna maximum on participating
+hosted sites. Flash defaults to high; UVM keeps its existing configuration. A
 [rubric template and sample rubric](../demos/rubric-template/README.md) are
 downloadable, and [adding a note with the host](../hosted-guide.html#bring-your-own)
 is covered separately. The host must verify the selected exercise on the actual

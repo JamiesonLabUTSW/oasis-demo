@@ -32,6 +32,31 @@ Publish and check the general guide before enabling the link for a new cohort.
 Keep passwords, provider keys, private deployment evidence and generated access
 helpers out of this public site.
 
+## Model choices before a session
+
+Use the [participant model instructions](../hosted-guide.html#model) as the
+shared explanation of Flash high/medium/low, Sol medium/high/extra-high and Luna
+maximum. General and Houston offer these presets; UVM retains its existing
+configuration. Confirm the choices in an ordinary participant account's
+**Grading → Model Config** for the intended input type. Flash defaults to high.
+Opening the menu and cancelling verifies availability without submitting a run.
+Saving configuration also does not start grading.
+
+Model availability, successful provider inference, and completed review/export
+are separate checks. Rehearse an actual run only within the host's approved
+usage; do not describe a menu check as successful grading. Supply a saved result
+if the site is offline or a provider is unavailable. Compare the same input and
+rubric version when demonstrating model differences, and explain that thinking
+levels are not rubric score levels or a quality guarantee. Wayfinder availability
+and its assistant model require a separate check.
+
+For a missing choice or provider error, record the site, input type, preset label,
+run ID if one exists, and a sanitized error. Contact the site operator; keep keys,
+account exports and private evidence out of this repository. Operators maintain
+per-site Azure allocations, credentials, rollout receipts and recovery in the
+private deployment documentation. New sites need explicit adoption; publishing
+this guide does not configure them or update the frozen downloadable images.
+
 ## A short first session
 
 1. Explain the loop: note → rubric → suggested evidence/score → human review →
