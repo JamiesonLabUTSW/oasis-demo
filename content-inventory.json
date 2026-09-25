@@ -28,10 +28,10 @@
       "kind": "original-synthetic",
       "creator": "OASIS demo guide contributors, with AI assistance",
       "created_on": "2026-09-17",
-      "reviewed_on": "2026-09-24",
+      "reviewed_on": "2026-09-25",
       "rights": "Original repository documentation and fictional instructional prompt; existing root LICENSE applies. Not a public-domain dedication.",
       "statement": "Original participant instructions for general invited demos: notes, saved transcript and audio/video paths, personal rubric experiments, review and export. Host supplies access and available models. No private records, transcript bytes, media, new workbook or credentials copied.",
-      "evidence": "docs/content-review-2026-09-23.md",
+      "evidence": "docs/content-review-2026-09-25.md",
       "readiness": "Published participant instructions for invited hosted sessions and interim access requests. Static/browser documentation checks only; actual site availability and authenticated workflow acceptance remain host responsibilities."
     },
     "rubric-template-2026-02-19": {
@@ -142,7 +142,7 @@
     "hosted-guide.html": {
       "kind": "original-synthetic",
       "provenance": "hosted-guide-2026-09-17",
-      "sha256": "6b9b21dc1a94fc2a40a67bee2a4ad267fa014ed5a32c16e71c3405d8137b9ec9"
+      "sha256": "92e333155e3f44eddd1e690e791f2369709e0e6bd25fe6f6fbff7487270e4800"
     },
     "docs/content-review-2026-09-17.md": {
       "kind": "documentation"
@@ -171,7 +171,7 @@
     "start-here.html": {
       "kind": "original-synthetic",
       "provenance": "starter-guide-2026-09-23",
-      "sha256": "973935042ed967bddf3a5402a3a3ce5d109dc2a0159369ce38dffa608c69d3fb"
+      "sha256": "ccf95012c4ee031637aba54edf057c7e7b557f362d694724b906602eb3afe4d4"
     },
     "assets/starter-guide.js": {
       "kind": "original-synthetic",
@@ -179,6 +179,9 @@
       "sha256": "336f5905015f4c6adedb864973d8ad92c9013be02c65d57e433ad5d3d32dba3c"
     },
     "docs/content-review-2026-09-23.md": {
+      "kind": "documentation"
+    },
+    "docs/content-review-2026-09-25.md": {
       "kind": "documentation"
     }
   }

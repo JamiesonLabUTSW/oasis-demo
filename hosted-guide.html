@@ -21,7 +21,8 @@
     @media(max-width:360px){.wrap{width:calc(100% - 30px)}.masthead .wrap{display:block}.masthead nav{justify-content:flex-start;max-width:none;margin:14px -7px 0}h1{font-size:39px}.button{padding:11px 16px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
     @media print{body{background:white;color:#111;font-size:11pt}.wrap{width:100%}.masthead,.actions,.contents,.skip{display:none}.hero{display:block;padding:0}.hero h1{font-size:30pt}.session{box-shadow:none;margin:18px 0;padding:15px}.session dl{display:flex;gap:25px;flex-wrap:wrap}.session dl div{display:block;border:0;padding:0}.session dd{text-align:left}.notice{margin-bottom:18px}.walkthrough{display:block;padding-top:20px}.step,.routeopt,.part,.facts{break-inside:avoid}.step h2,h2{font-size:20pt}.step-no{background:#eee;color:#111}.prep-grid,.branch,.library,.routes{gap:12px}.part,.downloads{background:#f4f4f4}.finish{background:#f4f4f4;color:#111}.finish h3,.finish p{color:#111}details{break-inside:avoid}details::details-content{content-visibility:visible}a{color:#111}footer{margin-top:15px;padding:15px 0}.section{padding:20px 0}}
-  </style>
+  .model-presets{width:100%;border-collapse:collapse;font-size:.92rem;margin:1rem 0}.model-presets caption{text-align:left;font-weight:700;padding:.5rem 0}.model-presets th,.model-presets td{text-align:left;vertical-align:top;padding:.65rem .5rem;border-bottom:1px solid #d8e1e8;overflow-wrap:anywhere}.model-presets th{background:#f0f5f8}@media(max-width:480px){.model-presets{font-size:.8rem}.model-presets th,.model-presets td{padding:.5rem .3rem}}
+</style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to guide</a>
@@ -91,7 +92,27 @@
 
       <div class="part" id="model-part"><span class="option">Part 3 · 5 minutes</span><h2>Same rubric, different model.</h2><p>Now hold the rubric still and change the model. Do this only if your host has enabled a second compatible model within your allowance.</p></div>
 
-      <section class="step" id="model" aria-labelledby="model-title"><div class="step-head"><span class="step-no" aria-hidden="true">10</span><h2 id="model-title">Try another model, when available</h2></div><ol><li>Keep the same <strong>Group</strong> and rubric version. Open <strong>Grading → Model Config</strong>.</li><li>In <strong>Model Configuration</strong>, untick <strong>Use server defaults</strong>. In the row for your exercise, choose the alternative provider/model approved by your host: <strong>Note Grading</strong> for notes, or <strong>Transcript Grading</strong> for transcripts. Leave other rows as directed by the host and choose <strong>Save Configuration</strong>.</li><li>Choose <strong>Start Grading</strong> once. Note the start time and use <strong>Details</strong> to check the run and its model information.</li><li>Compare scores and supporting evidence with your earlier run, then review and export.</li></ol><p class="tip">Available models depend on the deployment and input type. A text model may not accept video. If there is no approved alternative, continue experimenting with your rubric instead. A difference—or no difference—between models is something to inspect, not proof of quality.</p><div class="expected"><strong>Checkpoint:</strong> you can identify the same input and rubric version in both runs, and the model used for each.</div></section>
+      <section class="step" id="model" aria-labelledby="model-title">
+        <div class="step-head"><span class="step-no" aria-hidden="true">10</span><h2 id="model-title">Choose a model and thinking level</h2></div>
+        <p>Thinking levels are model settings, separate from your rubric's score levels. The General and Houston demos offer the choices below for note and transcript grading. Other sites can have different choices; UVM keeps its existing configuration. Your host confirms which models and exercises are ready for your account.</p>
+        <table class="model-presets"><caption>Hosted grading choices</caption><thead><tr><th scope="col">Provider</th><th scope="col">Model choices</th><th scope="col">Thinking level</th></tr></thead><tbody>
+          <tr><td>Google</td><td>Gemini 3.6 Flash · high (default)</td><td>High</td></tr>
+          <tr><td>Google</td><td>Gemini 3.6 Flash · med</td><td>Medium</td></tr>
+          <tr><td>Google</td><td>Gemini 3.6 Flash · low</td><td>Low</td></tr>
+          <tr><td>Azure OpenAI</td><td>GPT-6 Sol · med</td><td>Medium</td></tr>
+          <tr><td>Azure OpenAI</td><td>GPT-6 Sol · high</td><td>High</td></tr>
+          <tr><td>Azure OpenAI</td><td>GPT-6 Sol · xhigh</td><td>Extra high</td></tr>
+          <tr><td>Azure OpenAI</td><td>GPT-6 Luna · max</td><td>Maximum</td></tr>
+        </tbody></table>
+        <ol><li>Keep the same <strong>Group</strong> and rubric version. Open <strong>Grading → Model Config</strong>.</li>
+          <li>Leave <strong>Use server defaults</strong> ticked for the host's defaults; default Flash uses high thinking. To choose a preset, untick it. In <strong>Note Grading</strong> or <strong>Transcript Grading</strong>, choose the provider and then the model label above. Leave other rows as directed by your host.</li>
+          <li>Choose <strong>Save Configuration</strong>. This prepares your selection; it does not start grading. Existing runs keep the settings with which they were created. To return to the host's defaults, reopen Model Config, tick <strong>Use server defaults</strong>, and save.</li>
+          <li>When ready and within your host's usage instructions, check the mapping and choose <strong>Start Grading</strong> once. Open <strong>Details</strong> to inspect the new run and its model information.</li>
+          <li>Compare the same input and rubric version across runs, including the supporting evidence, then review and export.</li></ol>
+        <p class="tip">Available choices depend on the site, your account and the input type. Sol and Luna here are text grading choices; do not assume they support a video exercise. Changing a thinking level can change processing time and usage, but a higher level does not guarantee a better assessment. These labels are configuration choices, not quality rankings or rubric scores.</p>
+        <p>If a provider or model is missing, cancel and contact your host with the site and missing label. You do not need to share or supply an API key for the hosted demo. After a timeout, check existing runs before starting another. Wayfinder's assistant model is configured separately from these grading choices.</p>
+        <div class="expected"><strong>Checkpoint:</strong> you can identify the same input and rubric version in both runs and the selected model preset for each. A difference—or no difference—in scores is something to review, not proof of quality.</div>
+      </section>
     </div>
   </div>
 
@@ -124,7 +145,7 @@
     <div class="finish"><h3>A useful session ends here.</h3><ul><li>You can explain what a group, rubric and grading run each do.</li><li>You have checked an assessment against its source note, transcript or recording, saved a review and opened an Excel export.</li><li>You have changed one thing, run again, and can say what changed between the two runs.</li><li>You can tell which model produced each run, and why the human review, not the model, is the record.</li></ul><p>Share what was confusing with your facilitator. If your demo has a <strong>Feedback / feature request</strong> button near the bottom of the MAPLES sidebar, open it, enter your message and choose <strong>Send feedback</strong>. Your account, submission time and current page are included for the host. Wait for the saved confirmation; keep the form open and retry if it reports a problem.</p></div>
   </section>
 </main>
-<footer><div><strong>OASIS / MAPLES</strong><br>(Multiple Patents Pending)<br>Hosted demo participant guide · Updated September 24, 2026<br>Academic research demonstration</div><div><a href="index.html">Demo library</a> · <a href="https://jamiesonlabutsw.github.io/oasis/">OASIS project</a> · <a href="https://github.com/JamiesonLabUTSW/oasis-demo">Repository</a><br><a href="LICENSE">Project license</a> · <a href="THIRD_PARTY_NOTICES">Third-party notices</a></div></footer>
+<footer><div><strong>OASIS / MAPLES</strong><br>(Multiple Patents Pending)<br>Hosted demo participant guide · Updated September 25, 2026<br>Academic research demonstration</div><div><a href="index.html">Demo library</a> · <a href="https://jamiesonlabutsw.github.io/oasis/">OASIS project</a> · <a href="https://github.com/JamiesonLabUTSW/oasis-demo">Repository</a><br><a href="LICENSE">Project license</a> · <a href="THIRD_PARTY_NOTICES">Third-party notices</a></div></footer>
 </div>
 </body>
 </html>

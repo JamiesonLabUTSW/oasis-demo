@@ -63,3 +63,15 @@ links and HTML anchors, check the changed guide on desktop/mobile, and inspect
 public links without submitting access requests. After merge, confirm Pages
 completed and the served guide matches the reviewed bytes. Deployment and
 authenticated playback acceptance are separate checks recorded privately.
+
+## Maintaining model instructions
+
+The participant contract is [the model section](hosted-guide.html#model);
+[facilitator checks](docs/facilitator-guide.md#model-choices-before-a-session)
+separate menu availability from inference acceptance. Keep README, getting-started,
+Start here and that section linked and consistent when labels or defaults change.
+Verify UI wording against the application and describe site exceptions explicitly.
+Application alias binding and provider validation belong in `oasis-internal`;
+site catalogs, Azure endpoints, credentials and live journals belong in the private
+`gcp-oasis-deploy` repository. Do not copy their operational records here.
+A hosted feature does not change this repository's frozen image manifest.
