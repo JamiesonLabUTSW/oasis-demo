@@ -50,6 +50,13 @@ rubric version when demonstrating model differences, and explain that thinking
 levels are not rubric score levels or a quality guarantee. Wayfinder availability
 and its assistant model require a separate check.
 
+For Wayfinder preview cards, distinguish draft/refine from **Save rubric**,
+then confirm **Saved to your rubrics.** and open **View saved rubric**. Large
+drafts can take several minutes. Preserve unsaved work before reloading; if a
+Save result is uncertain, reconcile the rubric inventory before repeating it.
+Older hosted interfaces need their own walkthrough; a successful preview on one
+site does not establish adoption everywhere.
+
 For a missing choice or provider error, record the site, input type, preset label,
 run ID if one exists, and a sanitized error. Contact the site operator; keep keys,
 account exports and private evidence out of this repository. Operators maintain

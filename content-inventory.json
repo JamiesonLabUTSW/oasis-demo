@@ -28,10 +28,10 @@
       "kind": "original-synthetic",
       "creator": "OASIS demo guide contributors, with AI assistance",
       "created_on": "2026-09-17",
-      "reviewed_on": "2026-09-25",
+      "reviewed_on": "2026-09-29",
       "rights": "Original repository documentation and fictional instructional prompt; existing root LICENSE applies. Not a public-domain dedication.",
       "statement": "Original participant instructions for general invited demos: notes, saved transcript and audio/video paths, personal rubric experiments, review and export. Host supplies access and available models. No private records, transcript bytes, media, new workbook or credentials copied.",
-      "evidence": "docs/content-review-2026-09-25.md",
+      "evidence": "docs/content-review-2026-09-29.md",
       "readiness": "Published participant instructions for invited hosted sessions and interim access requests. Static/browser documentation checks only; actual site availability and authenticated workflow acceptance remain host responsibilities."
     },
     "rubric-template-2026-02-19": {
@@ -142,7 +142,7 @@
     "hosted-guide.html": {
       "kind": "original-synthetic",
       "provenance": "hosted-guide-2026-09-17",
-      "sha256": "92e333155e3f44eddd1e690e791f2369709e0e6bd25fe6f6fbff7487270e4800"
+      "sha256": "3a5fef0607afbe4237f0c2bc81e7673152abd66398cefa91441d959b3c6ef6e8"
     },
     "docs/content-review-2026-09-17.md": {
       "kind": "documentation"
@@ -182,6 +182,9 @@
       "kind": "documentation"
     },
     "docs/content-review-2026-09-25.md": {
+      "kind": "documentation"
+    },
+    "docs/content-review-2026-09-29.md": {
       "kind": "documentation"
     }
   }

@@ -21,6 +21,10 @@ downloadable, and [adding a note with the host](../hosted-guide.html#bring-your-
 is covered separately. The host must verify the selected exercise on the actual
 demo site before inviting participants to use it.
 
+On sites with Wayfinder preview cards, review and refine the complete draft,
+then choose **Save rubric** and **View saved rubric**. Previewing alone does not
+save it. Follow your host’s instructions if your site has an older interface.
+
 The current sign-in addresses are [General demo](https://demo.ut-real-ai-project-maples.com/login)
 and [UVM](https://uvm.ut-real-ai-project-maples.com/login). Choose the one named
 in your invitation; use your invitation's URL for another hosted site. Older
