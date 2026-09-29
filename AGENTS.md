@@ -39,3 +39,8 @@ Use [the contributor ownership guide](CONTRIBUTING.md#maintaining-model-instruct
 to route application, deployment and public documentation changes. Keep defaults,
 site exceptions and actual acceptance separate; never infer provider success
 from a selectable menu item.
+
+For rubric authoring, maintain [the participant guide](docs/rubric-authoring.md).
+Distinguish Wayfinder preview/Save, Enhance suggestions/Accept, and Transform’s
+explicit creation of a new saved rubric. Confirm UI labels in the application;
+keep deployment evidence and credentials in the private operator record.

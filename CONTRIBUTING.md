@@ -75,3 +75,11 @@ Application alias binding and provider validation belong in `oasis-internal`;
 site catalogs, Azure endpoints, credentials and live journals belong in the private
 `gcp-oasis-deploy` repository. Do not copy their operational records here.
 A hosted feature does not change this repository's frozen image manifest.
+
+Rubric authoring instructions live in [the dedicated guide](docs/rubric-authoring.md).
+The offline HTML page `rubric-authoring.html` is rendered from that Markdown
+source; review and update both copies and their inventory hashes together.
+Keep authoring-model configuration separate from grading presets. Preserve the
+different creation boundaries of Wayfinder, Enhance and Transform. Link changes
+from the participant, getting-started and facilitator routes, and review any new
+fictional prompt as original public content before updating its inventory hash.

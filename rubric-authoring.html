@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rubric authoring · OASIS / MAPLES</title>
+<style>
+:root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#19303b;background:#f4f7f8}*{box-sizing:border-box}body{margin:0}header,main,footer{max-width:1040px;margin:auto;padding:24px 32px}header{display:flex;flex-wrap:wrap;gap:12px 24px;border-bottom:1px solid #cad8df}main{background:white;padding-bottom:48px}a{color:#116879;text-underline-offset:3px}a:focus-visible{outline:3px solid #dc7907;outline-offset:4px}h1{font-size:clamp(2rem,5vw,3rem);line-height:1.12;margin:16px 0 24px;letter-spacing:-.035em}h2{font-size:1.5rem;margin-top:40px;line-height:1.25}p,li{font-size:1.05rem;line-height:1.7;max-width:78ch}li{margin:10px 0}table{width:100%;border-collapse:collapse;font-size:.98rem;line-height:1.55;margin:22px 0}th,td{border:1px solid #d1dde3;padding:12px;text-align:left;vertical-align:top}th{background:#eaf2f4}blockquote{border-left:4px solid #228797;background:#eef6f6;margin:20px 0;padding:2px 20px}footer{font-size:.9rem;line-height:1.7;color:#526671}.table-scroll{overflow-x:auto} @media(max-width:600px){header,main,footer{padding:20px}h2{font-size:1.3rem}th,td{padding:8px;font-size:.9rem}table{min-width:460px}blockquote{padding-left:14px}ol,ul{padding-left:22px}}
+</style></head><body><header><strong>OASIS / MAPLES</strong><a href="hosted-guide.html#change-rubric">Participant guide</a><a href="start-here.html">Start here</a><a href="index.html">Demo library</a></header><main>
+<!-- Rendered from docs/rubric-authoring.md; review and update both copies together. -->
+<h1>Draft, enhance and adapt a rubric</h1>
+<p>Use this guide with your invited hosted MAPLES account. Start from an original
+practice rubric or material your host has cleared for the session. Keep a named
+copy of the source when experimenting, and review the resulting rubric before
+using it to grade.</p>
+<h2>Choose the right action</h2>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Rubric authoring comparison table"><table>
+<thead>
+<tr>
+<th>Your aim</th>
+<th>Action</th>
+<th>When a saved rubric changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Write a new rubric or revise an unsaved draft</td>
+<td><strong>Wayfinder</strong></td>
+<td>Only when you choose <strong>Save rubric</strong></td>
+</tr>
+<tr>
+<td>Improve wording or scoring anchors in an existing rubric</td>
+<td><strong>Enhance</strong></td>
+<td>When you <strong>Accept</strong> a suggestion or explicitly accept the selected changes</td>
+</tr>
+<tr>
+<td>Adapt an existing rubric to another scenario</td>
+<td><strong>Transform</strong></td>
+<td><strong>Create Transformed Rubric</strong> generates and saves a new rubric; inspect it afterward</td>
+</tr>
+<tr>
+<td>Make a precise edit without an AI request</td>
+<td>Make a copy, then edit or upload your revised workbook</td>
+<td>When you explicitly save or upload the edit</td>
+</tr>
+</tbody>
+</table></div>
+<p>The authoring model is configured by your host. On sites with <strong>GPT-6.1 Sol at
+high reasoning</strong> enabled, Wayfinder drafting/refinement and Enhance/Transform
+use that specialist. The model you select for a grading run is a separate
+choice. High reasoning is a request setting, not a guarantee that every proposed
+criterion or score is correct. Ask your facilitator to confirm the site's
+actual authoring setup if it matters to your comparison.</p>
+<h2>Give the model a specific job</h2>
+<p>State the purpose, intended learner or task, evidence format, number of criteria
+and score range. Explain what must remain unchanged and what you want improved.
+For an existing rubric, prefer one focused change at a time so you can assess
+its effect. Avoid adding real participant or patient information to a prompt.</p>
+<p>This newly authored fictional example concerns a desk-organizing exercise:</p>
+<blockquote>
+<p>Draft six criteria for reviewing a written account of organizing a study
+desk. Include a criterion for documenting the choice to use a timer or not.
+Use Note evidence and scores 0, 1 and 2. Assess what the account documents,
+not whether the person is tidy. Keep each criterion focused on one
+observable feature. Explain how to score omitted information, and make the
+three anchors mutually exclusive. Return a draft for my review.</p>
+</blockquote>
+<p>For a refinement, identify the item and the intended change:</p>
+<blockquote>
+<p>Keep the item IDs, order, evidence format and score range. Revise only the
+timer-setup criterion so that a documented decision not to use a timer is
+distinct from an account that never mentions a timer. Return the complete
+revised draft for review.</p>
+</blockquote>
+<p>These are instructional examples, not validated criteria or recorded model
+outputs. Use only evidence that the selected format can support: a note shows
+what was documented; a transcript shows words; silent video cannot establish
+what was said.</p>
+<h2>Wayfinder: draft, inspect, refine, save</h2>
+<ol>
+<li>Open <strong>Wayfinder</strong>, describe the task and submit once. Allow the request to
+   finish; a large rubric can take several minutes.</li>
+<li>Read the preview from beginning to end. Check every item and its numeric
+   score labels. Open <strong>Exact YAML</strong> when you need the complete underlying text;
+   <strong>Copy YAML</strong> lets you keep your own draft copy.</li>
+<li>To revise it, use the card selected for refinement, or choose <strong>Select for
+   refinement</strong> on the intended card. Ask for a specific correction and check
+   the new complete draft against the previous one.</li>
+<li>Choose <strong>Save rubric</strong> only on the version you intend to keep. Confirm
+   <strong>Saved to your rubrics.</strong>, then use <strong>View saved rubric</strong> and inspect the
+   saved criteria and score range.</li>
+</ol>
+<p>Preview and refinement do not save a rubric. Unsaved drafts and chat history
+can be lost when the page reloads. A saved rubric remains available in your
+rubric inventory. Do not assume that saving a later draft removed an earlier
+saved version; use clear names and inspect the inventory.</p>
+<h2>Enhance: compare each proposed change</h2>
+<p>Open <strong>Enhance</strong> on the intended rubric and choose the review focus. Select
+<strong>Generate Enhancements</strong> once. Compare <strong>Current rubric</strong> with <strong>Proposed
+enhancement</strong> and read the stated reason. The explanation is a proposal you
+must evaluate, not proof that the change is better.</p>
+<p>Check that each suggestion preserves the construct you meant to assess. Use
+<strong>Accept</strong> for a reviewed change or <strong>Reject</strong> for one you do not want. If you
+use a control to accept several suggestions, review all of them first. Reopen
+the rubric and verify the saved result. Generating suggestions by itself does
+not apply them. Work on a copy when you want to retain the original wording
+for a comparison.</p>
+<h2>Transform: create a separate rubric</h2>
+<p>Open <strong>Transform</strong> on the source rubric. Enter a distinct <strong>New rubric name</strong>,
+the <strong>Target station</strong> when needed, and a clear <strong>Target scenario</strong>. Explain
+which features should carry over and which should change.</p>
+<p><strong>Create Transformed Rubric</strong> is the creation action: it generates and saves a
+new rubric in the same request. It does not offer Wayfinder's separate draft
+preview before saving. The source rubric remains available. After the success
+message, open the new rubric and review its wording, IDs, stations, evidence
+format and scoring anchors before using it. A new scenario can require changes
+to mappings or assumptions that the model did not recognize.</p>
+<h2>Review the substance, not just the formatting</h2>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Rubric authoring comparison table"><table>
+<thead>
+<tr>
+<th>Check</th>
+<th>What to look for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Purpose</td>
+<td>Each criterion measures the intended feature, without introducing a new task or hidden requirement.</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>A reviewer can point to evidence in the chosen note, transcript or recording. Omission does not prove an action occurred.</td>
+</tr>
+<tr>
+<td>Score anchors</td>
+<td>The same observation cannot satisfy two different scores. Boundaries are explicit and ordered.</td>
+</tr>
+<tr>
+<td>Missing versus negative</td>
+<td>An explicit statement of “none” is distinguishable from missing documentation where that distinction matters.</td>
+</tr>
+<tr>
+<td>Preservation</td>
+<td>Required item IDs, order, item count, station, evidence format and score range survived the edit.</td>
+</tr>
+<tr>
+<td>Fairness and usefulness</td>
+<td>Wording is relevant to the task and does not reward irrelevant personal attributes or unsupported assumptions.</td>
+</tr>
+<tr>
+<td>Saved result</td>
+<td>The rubric you reopened matches the version you approved.</td>
+</tr>
+</tbody>
+</table></div>
+<p>For example, “no timer was used” documents a decision; silence about a timer
+does not. Decide whether that decision meets the criterion's purpose, then
+place it in exactly one scoring anchor. Do not automatically reward all
+negative statements or infer an assessment from an omission.</p>
+<p>Try the revised rubric on a few host-approved fictional examples and compare
+human interpretations before broader use. Successful generation, parsing or
+saving does not establish educational validity or grading accuracy.</p>
+<h2>If a request fails or the outcome is unclear</h2>
+<p>Keep the page open and note the action, rubric name, approximate time and
+displayed Trace ID or sanitized error. Avoid repeated clicks: a timeout does
+not establish that provider work or billing stopped.</p>
+<ul>
+<li><strong>Draft/refinement failed:</strong> no new rubric is saved by that generation step.
+  Keep any earlier draft and ask your facilitator before repeating the request.</li>
+<li><strong>Save outcome unclear:</strong> check the rubric inventory for that exact name
+  and inspect it before trying to save again.</li>
+<li><strong>Enhance outcome unclear:</strong> reopen the source rubric and check which
+  suggestions, if any, you had explicitly accepted.</li>
+<li><strong>Transform outcome unclear:</strong> check for the new name before creating
+  another transformed rubric.</li>
+<li><strong>Model or credential unavailable:</strong> ask the facilitator to check access
+  for your account. Never paste an API key into Wayfinder, feedback or a public
+  support report.</li>
+</ul>
+<p>Share only the support details your host needs. Keep rubric content, account
+information and provider receipts in the host's approved private channel.
+See the <a href="hosted-guide.html#help">participant guide</a>,
+<a href="docs/facilitator-guide.md#model-choices-before-a-session">facilitator checks</a> and
+<a href="docs/support.md">support guide</a>.</p>
+</main><footer>Updated September 29, 2026 · Academic research demonstration<br><a href="docs/rubric-authoring.md">Markdown source</a> · <a href="LICENSE">Project license</a> · <a href="THIRD_PARTY_NOTICES">Third-party notices</a></footer></body></html>
