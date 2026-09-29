@@ -107,10 +107,11 @@ to mappings or assumptions that the model did not recognize.
 | Fairness and usefulness | Wording is relevant to the task and does not reward irrelevant personal attributes or unsupported assumptions. |
 | Saved result | The rubric you reopened matches the version you approved. |
 
-For example, “no timer was used” documents a decision; silence about a timer
-does not. Decide whether that decision meets the criterion's purpose, then
-place it in exactly one scoring anchor. Do not automatically reward all
-negative statements or infer an assessment from an omission.
+For example, an account might say, “I decided not to use a timer.” That
+explicitly documents a decision; silence about a timer does not. Decide whether
+that decision meets the criterion's purpose, then place it in exactly one
+scoring anchor. Do not automatically reward all negative statements or infer an
+assessment from an omission.
 
 Try the revised rubric on a few host-approved fictional examples and compare
 human interpretations before broader use. Successful generation, parsing or
