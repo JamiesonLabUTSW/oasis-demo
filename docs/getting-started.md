@@ -24,6 +24,8 @@ demo site before inviting participants to use it.
 On sites with Wayfinder preview cards, review and refine the complete draft,
 then choose **Save rubric** and **View saved rubric**. Previewing alone does not
 save it. Follow your host’s instructions if your site has an older interface.
+The [rubric authoring guide](rubric-authoring.md) explains the specialist model,
+Enhance and Transform, how to review anchors, and what to check after a timeout.
 
 The current sign-in addresses are [General demo](https://demo.ut-real-ai-project-maples.com/login)
 and [UVM](https://uvm.ut-real-ai-project-maples.com/login). Choose the one named

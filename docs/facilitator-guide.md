@@ -49,6 +49,12 @@ if the site is offline or a provider is unavailable. Compare the same input and
 rubric version when demonstrating model differences, and explain that thinking
 levels are not rubric score levels or a quality guarantee. Wayfinder availability
 and its assistant model require a separate check.
+Use the [rubric authoring guide](rubric-authoring.md) to explain the host-selected
+Sol 6.1/high specialist where enabled. Rehearse Wayfinder draft/refine/Save,
+Enhance suggestions and explicit acceptance, and Transform’s explicit creation
+of a new saved rubric. Check missing-versus-negative evidence and mutually
+exclusive anchors. Record which paths actually passed; model availability and
+a well-formed rubric are not educational validation.
 
 For Wayfinder preview cards, distinguish draft/refine from **Save rubric**,
 then confirm **Saved to your rubrics.** and open **View saved rubric**. Large

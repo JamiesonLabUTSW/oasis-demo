@@ -53,6 +53,16 @@
       "statement": "Original fictional snippets, illustrative criteria, suggested scores, timestamps and drawings expressly created for this public guide. No private records, institutional rubric, real media, transcript, screenshot, credentials or logos copied. Owner approved publication. Matching modality UI icon paths are from lucide-react 0.563.0, independently licensed application assets; see the content review and third-party notices. Added original fictional results-review illustration, fourth Audio card, and capability-gated same-origin navigation; no account reads or model calls.",
       "evidence": "docs/content-review-2026-09-23.md",
       "readiness": "Static educational guide. No account provisioning, model call, grading result or live workspace availability is implied."
+    },
+    "rubric-authoring-guide-2026-09-29": {
+      "kind": "original-synthetic",
+      "creator": "OASIS demo guide contributors, with AI assistance",
+      "created_on": "2026-09-29",
+      "reviewed_on": "2026-09-29",
+      "rights": "Original repository instructions and fictional prompts; existing root LICENSE applies. Not a public-domain dedication.",
+      "statement": "New instructions for authoring and reviewing rubrics, with original fictional study-desk and timer prompts. No private rubric, case, provider output, institutional instrument, screenshot, credential or runtime record copied or transformed.",
+      "evidence": "docs/content-review-2026-09-29.md",
+      "readiness": "Participant instructions checked against application controls. Fictional prompts are examples, not recorded model runs or validated criteria. Live site adoption remains a private host acceptance decision."
     }
   },
   "files": {
@@ -142,7 +152,7 @@
     "hosted-guide.html": {
       "kind": "original-synthetic",
       "provenance": "hosted-guide-2026-09-17",
-      "sha256": "3a5fef0607afbe4237f0c2bc81e7673152abd66398cefa91441d959b3c6ef6e8"
+      "sha256": "0694118885f2b4b2dd64dedf716eba6cb5839414b461c9e64a0266ba7dfc2ecf"
     },
     "docs/content-review-2026-09-17.md": {
       "kind": "documentation"
@@ -171,7 +181,7 @@
     "start-here.html": {
       "kind": "original-synthetic",
       "provenance": "starter-guide-2026-09-23",
-      "sha256": "ccf95012c4ee031637aba54edf057c7e7b557f362d694724b906602eb3afe4d4"
+      "sha256": "2ed107e3a72589bf2f549af824483c5270379f263981613a2f82e42cbb4621f1"
     },
     "assets/starter-guide.js": {
       "kind": "original-synthetic",
@@ -186,6 +196,16 @@
     },
     "docs/content-review-2026-09-29.md": {
       "kind": "documentation"
+    },
+    "docs/rubric-authoring.md": {
+      "kind": "original-synthetic",
+      "provenance": "rubric-authoring-guide-2026-09-29",
+      "sha256": "7f4bd34158b27569a6427aed2378e245bcc973882dd2cd7f4cac797340e38832"
+    },
+    "rubric-authoring.html": {
+      "kind": "original-synthetic",
+      "provenance": "rubric-authoring-guide-2026-09-29",
+      "sha256": "f97e9b92a9cddd2853e6b9074d7dcc2959a063b1d7aa8681047fdf8ddc56b7fe"
     }
   }
 }
