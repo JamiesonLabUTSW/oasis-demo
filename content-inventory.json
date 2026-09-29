@@ -200,12 +200,12 @@
     "docs/rubric-authoring.md": {
       "kind": "original-synthetic",
       "provenance": "rubric-authoring-guide-2026-09-29",
-      "sha256": "7f4bd34158b27569a6427aed2378e245bcc973882dd2cd7f4cac797340e38832"
+      "sha256": "ed2fd2ec4454d06b40341b95d3465d7dad278677c7672b264666abfe2177da66"
     },
     "rubric-authoring.html": {
       "kind": "original-synthetic",
       "provenance": "rubric-authoring-guide-2026-09-29",
-      "sha256": "f97e9b92a9cddd2853e6b9074d7dcc2959a063b1d7aa8681047fdf8ddc56b7fe"
+      "sha256": "da27b0e25d962597b1235b2473fee6b93e75fa72c747aeba9e7e33723c2a0c73"
     }
   }
 }
