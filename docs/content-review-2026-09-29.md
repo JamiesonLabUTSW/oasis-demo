@@ -36,3 +36,13 @@ specialist are conditional on host adoption; this guide does not claim every
 site has completed its rollout. The offline HTML rendering was checked at desktop and phone widths, including
 keyboard-focusable scrollable tables and the Start here navigation. Inventory
 and changed-link checks pass; publication remains a separate PR/Pages step.
+
+## Uncertain Save recovery clarification
+
+Reviewed newly authored instructions for the **Check again** and **Inspect
+existing rubric** controls against application source. The guide now distinguishes
+read-only checks from a new save, asks participants to compare content rather
+than infer success from a matching name, and explains that an empty lookup can
+precede completion of the original save. No private records, source rubric or
+provider output are included. Markdown and HTML wording agree; existing layout,
+examples, links, license/notices and image pins are unchanged.

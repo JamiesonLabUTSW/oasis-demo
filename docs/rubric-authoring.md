@@ -124,8 +124,12 @@ not establish that provider work or billing stopped.
 
 - **Draft/refinement failed:** no new rubric is saved by that generation step.
   Keep any earlier draft and ask your facilitator before repeating the request.
-- **Save outcome unclear:** check the rubric inventory for that exact name
-  and inspect it before trying to save again.
+- **Save outcome unclear:** use **Check again** on the draft card and
+  **Inspect existing rubric** when available. These actions only read your
+  rubrics; they do not save another copy. Compare the saved content with your
+  draft: a matching name alone does not prove the content matches. If no match
+  appears, the original save may still be finishing. Keep your draft and ask
+  your facilitator to check before saving again.
 - **Enhance outcome unclear:** reopen the source rubric and check which
   suggestions, if any, you had explicitly accepted.
 - **Transform outcome unclear:** check for the new name before creating
