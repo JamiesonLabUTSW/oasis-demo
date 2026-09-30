@@ -21,6 +21,36 @@ choice. High reasoning is a request setting, not a guarantee that every proposed
 criterion or score is correct. Ask your facilitator to confirm the site's
 actual authoring setup if it matters to your comparison.
 
+## Choose a task agent and follow its activity
+
+Where your site offers **Task agent**, choose before sending a Wayfinder request,
+generating enhancements or creating a transformed rubric. Keep the default
+**GPT-6.1 Sol at high reasoning** for ordinary authoring. **Extra high**, when offered, lets
+you request more reasoning for a difficult revision; it can take longer and use
+more tokens. It still needs your review. The menu contains your host's approved
+choices and is locked while a request is running. Changing it applies to the
+next authoring request, not an already running request or a grading run.
+
+**Authoring activity** shows the selected model, reasoning level, elapsed time
+and the current application stage. You might see preparation, generation or
+validation; Transform also reports saving. Expand **Activity history** to see
+the reported stages. A stage can repeat as Wayfinder checks and revises a draft.
+Elapsed time is not a percentage or an estimate of time remaining. Some older
+site configurations show waiting and elapsed time without detailed stages.
+
+These short messages describe what the application is doing. A waiting
+connection does not establish how far the model has progressed. Keep the page
+open and submit once. After completion, the result keeps its model details;
+**Returned model** appears only when the provider confirmed an identity.
+Unsaved activity and model details may be lost on reload or sign-out.
+
+A completed activity does not replace the action-specific review below:
+Wayfinder still needs **Save rubric**, Enhance still needs your explicit
+acceptance, and Transform has already created a new saved rubric. If the
+connection fails, the application does not automatically submit the task again.
+For Transform, check your rubric inventory before another Create because the
+first request may have saved successfully before the response was lost.
+
 ## Give the model a specific job
 
 State the purpose, intended learner or task, evidence format, number of criteria

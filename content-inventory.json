@@ -58,10 +58,10 @@
       "kind": "original-synthetic",
       "creator": "OASIS demo guide contributors, with AI assistance",
       "created_on": "2026-09-29",
-      "reviewed_on": "2026-09-29",
+      "reviewed_on": "2026-09-30",
       "rights": "Original repository instructions and fictional prompts; existing root LICENSE applies. Not a public-domain dedication.",
       "statement": "New instructions for authoring and reviewing rubrics, with original fictional study-desk and timer prompts. No private rubric, case, provider output, institutional instrument, screenshot, credential or runtime record copied or transformed.",
-      "evidence": "docs/content-review-2026-09-29.md",
+      "evidence": "docs/content-review-2026-09-30.md",
       "readiness": "Participant instructions checked against application controls. Fictional prompts are examples, not recorded model runs or validated criteria. Live site adoption remains a private host acceptance decision."
     }
   },
@@ -200,12 +200,15 @@
     "docs/rubric-authoring.md": {
       "kind": "original-synthetic",
       "provenance": "rubric-authoring-guide-2026-09-29",
-      "sha256": "efb5d4b4ed7f7c1de654235ac60f86c44d4fab7962d9b03237bc9a224edeed5f"
+      "sha256": "90b3c579237f4a4440e50122d7eefa1fea9490776743d53cce133194a9edf270"
     },
     "rubric-authoring.html": {
       "kind": "original-synthetic",
       "provenance": "rubric-authoring-guide-2026-09-29",
-      "sha256": "72b64de3d6cfb7c2a1873bb184a337de8a60016bac72e9614bafbd580090118f"
+      "sha256": "a380e5fbb8f41a0c39ef31b888b5dfe180e684bde6b6c3961552cfb19cb032d7"
+    },
+    "docs/content-review-2026-09-30.md": {
+      "kind": "documentation"
     }
   }
 }
