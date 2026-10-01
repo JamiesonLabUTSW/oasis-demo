@@ -24,12 +24,15 @@ authoring setup if it matters to your comparison.
 ## Choose a task agent and follow its activity
 
 Where your site offers **Task agent**, choose before sending a Wayfinder request,
-generating enhancements or creating a transformed rubric. Keep the default
-**GPT-6.1 Sol at high reasoning** for ordinary authoring. **Extra high**, when offered, lets
-you request more reasoning for a difficult revision; it can take longer and use
-more tokens. It still needs your review. The menu contains your host's approved
-choices and is locked while a request is running. Changing it applies to the
-next authoring request, not an already running request or a grading run.
+generating enhancements or creating a transformed rubric. Use the default
+**GPT-6.1 Sol at high reasoning**. A site may offer only this default. Use an
+optional choice, including **Extra high**, only after your host confirms it has
+been qualified for your site's authoring workflow. Being listed in the menu
+does not prove successful inference or output quality. Extra high can take
+longer and use more tokens.
+
+The menu is locked while a request is running. Changing it applies to the next
+authoring request, not an already running request or a grading run.
 
 Use **Refresh task agents** to check the available choices before sending. If
 the menu could not load, use **Reload task agents**. These controls refresh only
