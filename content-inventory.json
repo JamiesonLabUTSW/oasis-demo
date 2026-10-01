@@ -58,11 +58,11 @@
       "kind": "original-synthetic",
       "creator": "OASIS demo guide contributors, with AI assistance",
       "created_on": "2026-09-29",
-      "reviewed_on": "2026-09-29",
+      "reviewed_on": "2026-10-01",
       "rights": "Original repository instructions and fictional prompts; existing root LICENSE applies. Not a public-domain dedication.",
       "statement": "New instructions for authoring and reviewing rubrics, with original fictional study-desk and timer prompts. No private rubric, case, provider output, institutional instrument, screenshot, credential or runtime record copied or transformed.",
-      "evidence": "docs/content-review-2026-09-29.md",
-      "readiness": "Participant instructions checked against application controls. Fictional prompts are examples, not recorded model runs or validated criteria. Live site adoption remains a private host acceptance decision."
+      "evidence": "docs/content-review-2026-10-01.md",
+      "readiness": "Source and offline documentation checks passed; the host confirmed authoring-release acceptance at the intended sites with default Sol 6.1/high only. Optional choices require separate host qualification. Fictional prompts are examples, not recorded model runs or validated criteria. Exact-version Pages publication and published-guide browser checks remain pending."
     }
   },
   "files": {
@@ -200,12 +200,18 @@
     "docs/rubric-authoring.md": {
       "kind": "original-synthetic",
       "provenance": "rubric-authoring-guide-2026-09-29",
-      "sha256": "efb5d4b4ed7f7c1de654235ac60f86c44d4fab7962d9b03237bc9a224edeed5f"
+      "sha256": "44d3374f6ade48317e946dacd67cca84a0f90f6aef065081a0cd5afd959b8d04"
     },
     "rubric-authoring.html": {
       "kind": "original-synthetic",
       "provenance": "rubric-authoring-guide-2026-09-29",
-      "sha256": "72b64de3d6cfb7c2a1873bb184a337de8a60016bac72e9614bafbd580090118f"
+      "sha256": "ca3ac28d7dcd042e8bb103dd6787611d6bced70776942a7158470ee8fff99a4b"
+    },
+    "docs/content-review-2026-09-30.md": {
+      "kind": "documentation"
+    },
+    "docs/content-review-2026-10-01.md": {
+      "kind": "documentation"
     }
   }
 }

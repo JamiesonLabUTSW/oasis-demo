@@ -41,12 +41,48 @@ using it to grade.</p>
 </tr>
 </tbody>
 </table></div>
-<p>The authoring model is configured by your host. On sites with <strong>GPT-6.1 Sol at
-high reasoning</strong> enabled, Wayfinder drafting/refinement and Enhance/Transform
-use that specialist. The model you select for a grading run is a separate
-choice. High reasoning is a request setting, not a guarantee that every proposed
-criterion or score is correct. Ask your facilitator to confirm the site's
-actual authoring setup if it matters to your comparison.</p>
+<p>The authoring choices are configured by your host. Where enabled, the default
+for Wayfinder drafting/refinement and Enhance/Transform is <strong>GPT-6.1 Sol at high
+reasoning</strong>. The model you select for a grading run is a separate choice. High
+reasoning is a request setting, not a guarantee that every proposed criterion
+or score is correct. Ask your facilitator to confirm the site's actual
+authoring setup if it matters to your comparison.</p>
+<h2>Choose a task agent and follow its activity</h2>
+<p>Where your site offers <strong>Task agent</strong>, choose before sending a Wayfinder request,
+generating enhancements or creating a transformed rubric. Use the default
+<strong>GPT-6.1 Sol at high reasoning</strong>. A site may offer only this default. Use an
+optional choice, including <strong>Extra high</strong>, only after your host confirms it has
+been qualified for your site's authoring workflow. Being listed in the menu
+does not prove successful inference or output quality. Extra high can take
+longer and use more tokens.</p>
+<p>The menu is locked while a request is running. Changing it applies to the next
+authoring request, not an already running request or a grading run.</p>
+<p>Use <strong>Refresh task agents</strong> to check the available choices before sending. If
+the menu could not load, use <strong>Reload task agents</strong>. These controls refresh only
+the menu; they do not submit an authoring request. Check your selection afterward:
+a changed or removed choice returns to the site's default. Choices are kept only
+within your current signed-in session.</p>
+<p>The compact <strong>Authoring activity</strong> panel puts the current reported stage beside
+an elapsed timer, with model and effort badges below. You might see preparation,
+generation or validation; Transform also reports saving. Expand <strong>Activity
+history</strong> for the timestamped stages. A stage can repeat as Wayfinder checks and
+revises a draft. The panel distinguishes a result ready for review from
+<strong>Activity stopped</strong>. Elapsed time is not a percentage or an estimate of time
+remaining. Some older site configurations show waiting and elapsed time without
+detailed stages.</p>
+<p>These short messages describe what the application is doing. A waiting
+connection does not establish how far the model has progressed. Keep the
+authoring view open and submit once. After completion, the result keeps its
+model details; <strong>Returned model</strong> appears only when the provider confirmed an
+identity. Leaving the authoring view or signing out can interrupt updates;
+that does not prove provider work or a started save stopped. Unsaved activity
+and model details may be lost on reload or sign-out.</p>
+<p>A completed activity does not replace the action-specific review below:
+Wayfinder still needs <strong>Save rubric</strong>, Enhance still needs your explicit
+acceptance, and Transform has already created a new saved rubric. If the
+connection fails, the application does not automatically submit the task again.
+For Transform, check your rubric inventory before another Create because the
+first request may have saved successfully before the response was lost.</p>
 <h2>Give the model a specific job</h2>
 <p>State the purpose, intended learner or task, evidence format, number of criteria
 and score range. Explain what must remain unchanged and what you want improved.
@@ -75,32 +111,41 @@ what was said.</p>
 <h2>Wayfinder: draft, inspect, refine, save</h2>
 <ol>
 <li>Open <strong>Wayfinder</strong>, describe the task and submit once. Allow the request to
-   finish; a large rubric can take several minutes.</li>
+finish; a large rubric can take several minutes.</li>
 <li>Read the preview from beginning to end. Check every item and its numeric
-   score labels. Open <strong>Exact YAML</strong> when you need the complete underlying text;
-   <strong>Copy YAML</strong> lets you keep your own draft copy.</li>
+score labels. Open <strong>Exact YAML</strong> when you need the complete underlying text;
+<strong>Copy YAML</strong> lets you keep your own draft copy.</li>
 <li>To revise it, use the card selected for refinement, or choose <strong>Select for
-   refinement</strong> on the intended card. Ask for a specific correction and check
-   the new complete draft against the previous one.</li>
+refinement</strong> on the intended card. Ask for a specific correction and check
+the new complete draft against the previous one.</li>
 <li>Choose <strong>Save rubric</strong> only on the version you intend to keep. Confirm
-   <strong>Saved to your rubrics.</strong>, then use <strong>View saved rubric</strong> and inspect the
-   saved criteria and score range.</li>
+<strong>Saved to your rubrics.</strong>, then use <strong>View saved rubric</strong> and inspect the
+saved criteria and score range.</li>
 </ol>
-<p>Preview and refinement do not save a rubric. Unsaved drafts and chat history
-can be lost when the page reloads. A saved rubric remains available in your
-rubric inventory. Do not assume that saving a later draft removed an earlier
-saved version; use clear names and inspect the inventory.</p>
+<p>Preview and refinement do not save a rubric. Moving between floating Wayfinder
+and the full Wayfinder page keeps the current conversation. <strong>View saved rubric</strong>
+and <strong>Inspect existing rubric</strong> open within the application, preserving drafts
+in the current tab. A page reload or sign-out can still clear unsaved drafts
+and chat history; use <strong>Copy YAML</strong> to keep a copy before leaving.</p>
+<p>A saved rubric remains available in your rubric inventory. Do not assume that
+saving a later draft removed an earlier saved version; use clear names and
+inspect the inventory.</p>
 <h2>Enhance: compare each proposed change</h2>
 <p>Open <strong>Enhance</strong> on the intended rubric and choose the review focus. Select
 <strong>Generate Enhancements</strong> once. Compare <strong>Current rubric</strong> with <strong>Proposed
 enhancement</strong> and read the stated reason. The explanation is a proposal you
-must evaluate, not proof that the change is better.</p>
-<p>Check that each suggestion preserves the construct you meant to assess. Use
-<strong>Accept</strong> for a reviewed change or <strong>Reject</strong> for one you do not want. If you
-use a control to accept several suggestions, review all of them first. Reopen
-the rubric and verify the saved result. Generating suggestions by itself does
-not apply them. Work on a copy when you want to retain the original wording
-for a comparison.</p>
+must evaluate, not proof that the change is better. A completed response can
+contain no suggestions. Neither completion nor an empty response validates the
+rubric's quality.</p>
+<p>Check that each suggestion preserves the construct you meant to assess and
+fits the surrounding criteria and anchors. Use <strong>Accept</strong> for a reviewed change
+or <strong>Reject</strong> for one you do not want. <strong>Accept All</strong> applies all suggestions
+still shown, so review every one before using it. Reopen the rubric and verify
+the saved result. Generating suggestions by itself does not apply them. Work
+on a copy when you want to retain the original wording for a comparison.</p>
+<p>If a later generation fails, earlier suggestions may remain visible. The failure
+notice identifies them as earlier suggestions; do not treat them as results
+from the failed attempt. There is no automatic resubmission.</p>
 <h2>Transform: create a separate rubric</h2>
 <p>Open <strong>Transform</strong> on the source rubric. Enter a distinct <strong>New rubric name</strong>,
 the <strong>Target station</strong> when needed, and a clear <strong>Target scenario</strong>. Explain
@@ -108,9 +153,22 @@ which features should carry over and which should change.</p>
 <p><strong>Create Transformed Rubric</strong> is the creation action: it generates and saves a
 new rubric in the same request. It does not offer Wayfinder's separate draft
 preview before saving. The source rubric remains available. After the success
-message, open the new rubric and review its wording, IDs, stations, evidence
-format and scoring anchors before using it. A new scenario can require changes
-to mappings or assumptions that the model did not recognize.</p>
+message, choose <strong>View saved rubric</strong> and review its wording, IDs, stations,
+evidence format and scoring anchors before using it. A new scenario can require
+changes to mappings or assumptions that the model did not recognize.</p>
+<p>If creation could not be confirmed, use <strong>Check again</strong> in the dialog. It looks
+for the exact new name without creating another rubric. Each check waits up to
+45 seconds; if it times out, you can choose <strong>Check again</strong> explicitly. A found
+name enables <strong>Inspect existing rubric</strong>, but a matching name does not confirm
+that the saved content is the intended Transform result. <strong>Inspect your rubrics</strong>
+opens the refreshed inventory for review.</p>
+<p>If nothing is found yet, the first creation may still finish. The dialog blocks
+another Create with the same uncertain name. Changing the name is a separate
+creation, not a way to check the first request; ask your facilitator before
+doing so. A check started for an earlier attempt cannot confirm a later one.
+When the application can establish that saving never started, it reports the
+failure without the uncertain-creation warning. No failed request is submitted
+again automatically.</p>
 <h2>Review the substance, not just the formatting</h2>
 <div class="table-scroll" tabindex="0" role="region" aria-label="Rubric authoring comparison table"><table>
 <thead>
@@ -130,7 +188,7 @@ to mappings or assumptions that the model did not recognize.</p>
 </tr>
 <tr>
 <td>Score anchors</td>
-<td>The same observation cannot satisfy two different scores. Boundaries are explicit and ordered.</td>
+<td>Every intended evidence case fits one score: no overlaps or gaps. Boundaries are explicit and ordered.</td>
 </tr>
 <tr>
 <td>Missing versus negative</td>
@@ -164,24 +222,26 @@ displayed Trace ID or sanitized error. Avoid repeated clicks: a timeout does
 not establish that provider work or billing stopped.</p>
 <ul>
 <li><strong>Draft/refinement failed:</strong> no new rubric is saved by that generation step.
-  Keep any earlier draft and ask your facilitator before repeating the request.</li>
+Keep any earlier draft and ask your facilitator before repeating the request.</li>
 <li><strong>Save outcome unclear:</strong> use <strong>Check again</strong> on the draft card and
-  <strong>Inspect existing rubric</strong> when available. These actions only read your
-  rubrics; they do not save another copy. Compare the saved content with your
-  draft: a matching name alone does not prove the content matches. If no match
-  appears, the original save may still be finishing. Keep your draft and ask
-  your facilitator to check before saving again.</li>
-<li><strong>Enhance outcome unclear:</strong> reopen the source rubric and check which
-  suggestions, if any, you had explicitly accepted.</li>
-<li><strong>Transform outcome unclear:</strong> check for the new name before creating
-  another transformed rubric.</li>
+<strong>Inspect existing rubric</strong> when available. These actions only read your
+rubrics; they do not save another copy. Compare the saved content with your
+draft: a matching name alone does not prove the content matches. If no match
+appears, the original save may still be finishing. Keep your draft and ask
+your facilitator to check before saving again.</li>
+<li><strong>Enhance outcome unclear:</strong> generation alone does not change the source.
+Check whether visible suggestions are from an earlier attempt. If you had
+explicitly accepted changes, reopen the source rubric and verify them.</li>
+<li><strong>Transform outcome unclear:</strong> use the dialog's <strong>Check again</strong>, then inspect
+any matching rubric's content. A timed-out check or an absent name does not
+prove the creation failed. Do not repeat Create as a status check.</li>
 <li><strong>Model or credential unavailable:</strong> ask the facilitator to check access
-  for your account. Never paste an API key into Wayfinder, feedback or a public
-  support report.</li>
+for your account. Never paste an API key into Wayfinder, feedback or a public
+support report.</li>
 </ul>
 <p>Share only the support details your host needs. Keep rubric content, account
 information and provider receipts in the host's approved private channel.
 See the <a href="hosted-guide.html#help">participant guide</a>,
 <a href="docs/facilitator-guide.md#model-choices-before-a-session">facilitator checks</a> and
 <a href="docs/support.md">support guide</a>.</p>
-</main><footer>Updated September 29, 2026 · Academic research demonstration<br><a href="docs/rubric-authoring.md">Markdown source</a> · <a href="LICENSE">Project license</a> · <a href="THIRD_PARTY_NOTICES">Third-party notices</a></footer></body></html>
+</main><footer>Updated September 30, 2026 · Academic research demonstration<br><a href="docs/rubric-authoring.md">Markdown source</a> · <a href="LICENSE">Project license</a> · <a href="THIRD_PARTY_NOTICES">Third-party notices</a></footer></body></html>
