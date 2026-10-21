@@ -34,7 +34,11 @@ Hosted sign-in: [General demo](https://demo.ut-real-ai-project-maples.com/login)
 · [UVM](https://uvm.ut-real-ai-project-maples.com/login). Use the site named in
 your invitation; other hosted sites have their own invitation links. Older
 general/UVM bookmarks redirect to these addresses. You may need to sign in again
-with your existing account after the address changes.
+with your existing account after the address changes. If your invitation asks
+you to activate an account, open its personal link first and choose your own
+password. Then use the ordinary sign-in page with that email and password.
+Keep the activation link private; its stated expiry applies to activation.
+If it expires before you use it, reply to your invitation for help.
 
 Don't have an account? [Request access](https://docs.google.com/forms/d/e/1FAIpQLSfv-_yJomKEkmZOFRB7307sOXujuIQ7vnmQ_kIxgWDl3pLRoQ/viewform)
 — we'll email you an invitation if we can offer one. Each hosted sign-in page's

@@ -3,11 +3,15 @@
 ## Joining a hosted session?
 
 Use the [hosted MAPLES participant guide](../hosted-guide.html) and
-open the sign-in link in your invitation. Your facilitator
-provides your assigned account privately. Public registration is closed. You need
-a browser and internet access; no local installation or personal model key is
-required for the host-managed route. Your invitation identifies the available
-examples, model access, usage allowance and access end date. Choose a
+use the site named in your invitation. If it contains a personal activation
+link, open that link first, choose your own password and activate your account.
+Then sign in with your invitation email address and the password you chose.
+Keep the one-time link private and use it before the expiry stated in the email;
+reply to your invitation if it has expired. Existing accounts use their current
+password. Public registration is closed. You need a browser and internet access;
+no local installation or personal model key is required for the host-managed
+route. Your host identifies the available examples, model access and usage
+allowance, and will tell you if a session has an access end date. Choose a
 [note, transcript or video exercise](../hosted-guide.html#examples). The guide
 covers opening a prepared run or starting one, human review and Excel export,
 then a second pass:
