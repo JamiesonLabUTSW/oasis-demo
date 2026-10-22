@@ -34,7 +34,21 @@ Hosted sign-in: [General demo](https://demo.ut-real-ai-project-maples.com/login)
 · [UVM](https://uvm.ut-real-ai-project-maples.com/login). Use the site named in
 your invitation; other hosted sites have their own invitation links. Older
 general/UVM bookmarks redirect to these addresses. You may need to sign in again
-with your existing account after the address changes.
+with your existing account after the address changes. If your invitation asks
+you to activate an account, open its personal link first and choose your own
+password. Then use the ordinary sign-in page with that email and password.
+Keep the activation link private; its stated expiry applies to activation.
+If it expires before you use it, reply to your invitation for help.
+
+**General demo — demonstration and feature exploration only.** Please use the
+supplied practice material. Do not upload private, confidential or sensitive data,
+including patient, student or institutional records. Privacy of data uploaded to
+this demo is not guaranteed. To discuss a separate private instance with access
+limited to you or your organization, contact Andrew through your invitation.
+
+**Your feedback is welcome and encouraged!** Tell us what works well, what could
+be better, and what else you'd like to see. Your ideas will help shape what we
+build next. Reply to your invitation with feedback or questions.
 
 Don't have an account? [Request access](https://docs.google.com/forms/d/e/1FAIpQLSfv-_yJomKEkmZOFRB7307sOXujuIQ7vnmQ_kIxgWDl3pLRoQ/viewform)
 — we'll email you an invitation if we can offer one. Each hosted sign-in page's

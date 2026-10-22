@@ -26,7 +26,9 @@ See `CONTRIBUTING.md` for contributor workflow and `docs/runtime.md` for pins.
 For hosted access documentation, keep `README.md`, `docs/getting-started.md`,
 `hosted-guide.html` and `start-here.html` consistent. Use the invitation's site;
 the general/UVM addresses are linked in the hosted guide. Request access is an
-interim form, not automatic account creation or an implemented invitation API.
+intake form; submitting it does not create an account. A personal activation
+link lets an invited participant choose their password. Keep activation and
+ordinary sign-in distinct; existing accounts retain their current password.
 Keep explanations of sign-in and media recovery user-facing. Runtime settings,
 backup paths, operator commands and deployment evidence belong in the private
 deployment repository, not this public site. The frozen download image manifest

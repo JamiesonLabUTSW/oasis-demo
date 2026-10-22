@@ -3,11 +3,15 @@
 ## Joining a hosted session?
 
 Use the [hosted MAPLES participant guide](../hosted-guide.html) and
-open the sign-in link in your invitation. Your facilitator
-provides your assigned account privately. Public registration is closed. You need
-a browser and internet access; no local installation or personal model key is
-required for the host-managed route. Your invitation identifies the available
-examples, model access, usage allowance and access end date. Choose a
+use the site named in your invitation. If it contains a personal activation
+link, open that link first, choose your own password and activate your account.
+Then sign in with your invitation email address and the password you chose.
+Keep the one-time link private and use it before the expiry stated in the email;
+reply to your invitation if it has expired. Existing accounts use their current
+password. Public registration is closed. You need a browser and internet access;
+no local installation or personal model key is required for the host-managed
+route. Your host identifies the available examples, model access and usage
+allowance, and will tell you if a session has an access end date. Choose a
 [note, transcript or video exercise](../hosted-guide.html#examples). The guide
 covers opening a prepared run or starting one, human review and Excel export,
 then a second pass:
@@ -20,6 +24,16 @@ hosted sites. Flash defaults to high; UVM keeps its existing configuration. A
 downloadable, and [adding a note with the host](../hosted-guide.html#bring-your-own)
 is covered separately. The host must verify the selected exercise on the actual
 demo site before inviting participants to use it.
+
+**General demo — demonstration and feature exploration only.** Please use the
+supplied practice material. Do not upload private, confidential or sensitive data,
+including patient, student or institutional records. Privacy of data uploaded to
+this demo is not guaranteed. To discuss a separate private instance with access
+limited to you or your organization, contact Andrew through your invitation.
+
+**Your feedback is welcome and encouraged!** Tell us what works well, what could
+be better, and what else you'd like to see. Your ideas will help shape what we
+build next. Reply to your invitation with feedback or questions.
 
 On sites with Wayfinder preview cards, review and refine the complete draft,
 then choose **Save rubric** and **View saved rubric**. Previewing alone does not
