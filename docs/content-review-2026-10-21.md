@@ -30,3 +30,8 @@ covered 85 references without missing targets. These are documentation checks,
 not participant activation, authenticated media playback, grading or export
 acceptance. This revision still needs PR review, Pages publication and served
 content verification before being described as live.
+
+Andrew also requested an encouraging invitation for feedback and feature ideas.
+The four entry points welcome suggestions and explain replying to the invitation;
+the full guide retains the in-app feedback route. This does not commit to building
+every requested feature. The source text was reviewed before refreshing hashes.

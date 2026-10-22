@@ -46,6 +46,10 @@ including patient, student or institutional records. Privacy of data uploaded to
 this demo is not guaranteed. To discuss a separate private instance with access
 limited to you or your organization, contact Andrew through your invitation.
 
+**Your feedback is welcome and encouraged!** Tell us what works well, what could
+be better, and what else you'd like to see. Your ideas will help shape what we
+build next. Reply to your invitation with feedback or questions.
+
 Don't have an account? [Request access](https://docs.google.com/forms/d/e/1FAIpQLSfv-_yJomKEkmZOFRB7307sOXujuIQ7vnmQ_kIxgWDl3pLRoQ/viewform)
 — we'll email you an invitation if we can offer one. Each hosted sign-in page's
 Request access link fills in its site on the same form. A request does not create

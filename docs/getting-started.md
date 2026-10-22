@@ -31,6 +31,10 @@ including patient, student or institutional records. Privacy of data uploaded to
 this demo is not guaranteed. To discuss a separate private instance with access
 limited to you or your organization, contact Andrew through your invitation.
 
+**Your feedback is welcome and encouraged!** Tell us what works well, what could
+be better, and what else you'd like to see. Your ideas will help shape what we
+build next. Reply to your invitation with feedback or questions.
+
 On sites with Wayfinder preview cards, review and refine the complete draft,
 then choose **Save rubric** and **View saved rubric**. Previewing alone does not
 save it. Follow your host’s instructions if your site has an older interface.
