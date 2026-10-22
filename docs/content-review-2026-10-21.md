@@ -9,6 +9,14 @@ the expiry in their email. Existing accounts retain their current password.
 Session end dates are conditional on the host announcing one; activation expiry
 does not promise a site end date. Agent guidance records the same distinction.
 
+The four entry points also carry Andrew's requested General-demo notice:
+demonstration and feature exploration only, no private/confidential/sensitive
+uploads, no guarantee of uploaded-data privacy, and an invitation to contact
+Andrew about a separate private instance with access limited to the individual
+or organization. This notice is scoped to General and makes no security guarantee
+for a future private instance. It uses existing layout styles; changed text and
+markup were reviewed before updating the HTML inventory hashes.
+
 This is original participant-facing documentation. No real invitation URL,
 account, recipient list, credential, private screenshot, operational journal,
 institutional material or new demo asset is included. Existing demo content,

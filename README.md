@@ -40,6 +40,12 @@ password. Then use the ordinary sign-in page with that email and password.
 Keep the activation link private; its stated expiry applies to activation.
 If it expires before you use it, reply to your invitation for help.
 
+**General demo — demonstration and feature exploration only.** Please use the
+supplied practice material. Do not upload private, confidential or sensitive data,
+including patient, student or institutional records. Privacy of data uploaded to
+this demo is not guaranteed. To discuss a separate private instance with access
+limited to you or your organization, contact Andrew through your invitation.
+
 Don't have an account? [Request access](https://docs.google.com/forms/d/e/1FAIpQLSfv-_yJomKEkmZOFRB7307sOXujuIQ7vnmQ_kIxgWDl3pLRoQ/viewform)
 — we'll email you an invitation if we can offer one. Each hosted sign-in page's
 Request access link fills in its site on the same form. A request does not create

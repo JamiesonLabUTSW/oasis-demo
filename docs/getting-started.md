@@ -25,6 +25,12 @@ downloadable, and [adding a note with the host](../hosted-guide.html#bring-your-
 is covered separately. The host must verify the selected exercise on the actual
 demo site before inviting participants to use it.
 
+**General demo — demonstration and feature exploration only.** Please use the
+supplied practice material. Do not upload private, confidential or sensitive data,
+including patient, student or institutional records. Privacy of data uploaded to
+this demo is not guaranteed. To discuss a separate private instance with access
+limited to you or your organization, contact Andrew through your invitation.
+
 On sites with Wayfinder preview cards, review and refine the complete draft,
 then choose **Save rubric** and **View saved rubric**. Previewing alone does not
 save it. Follow your host’s instructions if your site has an older interface.
