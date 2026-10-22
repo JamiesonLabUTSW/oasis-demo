@@ -31,7 +31,7 @@
       "reviewed_on": "2026-10-22",
       "rights": "Original repository documentation and fictional instructional prompt; existing root LICENSE applies. Not a public-domain dedication.",
       "statement": "Original participant instructions for general invited demos: notes, saved transcript and audio/video paths, personal rubric experiments, review and export. Host supplies access and available models. No private records, transcript bytes, media, new workbook or credentials copied.",
-      "evidence": "docs/content-review-2026-10-21.md",
+      "evidence": "docs/content-review-2026-10-22.md",
       "readiness": "Published participant instructions for invited hosted sessions and interim access requests. Static/browser documentation checks only; actual site availability and authenticated workflow acceptance remain host responsibilities."
     },
     "rubric-template-2026-02-19": {
@@ -51,18 +51,18 @@
       "reviewed_on": "2026-10-22",
       "rights": "Original authored teaching content and CSS illustrations under the root LICENSE. Embedded Lucide UI icons retain ISC/Feather MIT notices in the bundle and THIRD_PARTY_NOTICES. Not a public-domain dedication.",
       "statement": "Original fictional snippets, illustrative criteria, suggested scores, timestamps and drawings expressly created for this public guide. No private records, institutional rubric, real media, transcript, screenshot, credentials or logos copied. Owner approved publication. Matching modality UI icon paths are from lucide-react 0.563.0, independently licensed application assets; see the content review and third-party notices. Added original fictional results-review illustration, fourth Audio card, and capability-gated same-origin navigation; no account reads or model calls.",
-      "evidence": "docs/content-review-2026-09-23.md",
+      "evidence": "docs/content-review-2026-10-22.md",
       "readiness": "Static educational guide. No account provisioning, model call, grading result or live workspace availability is implied."
     },
     "rubric-authoring-guide-2026-09-29": {
       "kind": "original-synthetic",
       "creator": "OASIS demo guide contributors, with AI assistance",
       "created_on": "2026-09-29",
-      "reviewed_on": "2026-10-01",
+      "reviewed_on": "2026-10-22",
       "rights": "Original repository instructions and fictional prompts; existing root LICENSE applies. Not a public-domain dedication.",
       "statement": "New instructions for authoring and reviewing rubrics, with original fictional study-desk and timer prompts. No private rubric, case, provider output, institutional instrument, screenshot, credential or runtime record copied or transformed.",
-      "evidence": "docs/content-review-2026-10-01.md",
-      "readiness": "Source and offline documentation checks passed; the host confirmed authoring-release acceptance at the intended sites with default Sol 6.1/high only. Optional choices require separate host qualification. Fictional prompts are examples, not recorded model runs or validated criteria. Exact-version Pages publication and published-guide browser checks remain pending."
+      "evidence": "docs/content-review-2026-10-22.md",
+      "readiness": "Participant instructions with desktop/mobile design and navigation checks. The host previously confirmed default Sol 6.1/high authoring acceptance; optional choices require separate qualification. These layout changes do not establish authenticated workflow acceptance or validate the fictional criteria."
     }
   },
   "files": {
@@ -152,7 +152,7 @@
     "hosted-guide.html": {
       "kind": "original-synthetic",
       "provenance": "hosted-guide-2026-09-17",
-      "sha256": "a1ab0a27c558467e5e0241859351d9afa63620c68bfbc7ba2c18c297cdd1320d"
+      "sha256": "333f539c4f5f2b53a09c55e111320da93cfb30f50fa20452f3946244db8e1ecd"
     },
     "docs/content-review-2026-09-17.md": {
       "kind": "documentation"
@@ -181,12 +181,12 @@
     "start-here.html": {
       "kind": "original-synthetic",
       "provenance": "starter-guide-2026-09-23",
-      "sha256": "e490910728144fafccc2070b8287dd251bbe8fadcb9622f7769892ddd69ae12e"
+      "sha256": "d4727be9ef2a83570afba241705ea196d4e789a3fdc4273994fc0be69a572c7c"
     },
     "assets/starter-guide.js": {
       "kind": "original-synthetic",
       "provenance": "starter-guide-2026-09-23",
-      "sha256": "336f5905015f4c6adedb864973d8ad92c9013be02c65d57e433ad5d3d32dba3c"
+      "sha256": "3ec1710815eb6b125873db78a8df1de70556498000ab6470cf85cb6b3a6f0b08"
     },
     "docs/content-review-2026-09-23.md": {
       "kind": "documentation"
@@ -200,12 +200,12 @@
     "docs/rubric-authoring.md": {
       "kind": "original-synthetic",
       "provenance": "rubric-authoring-guide-2026-09-29",
-      "sha256": "44d3374f6ade48317e946dacd67cca84a0f90f6aef065081a0cd5afd959b8d04"
+      "sha256": "803475b446cdb96f984e494e53b50ddaeb01f19705970d8c5ff0272a29afae25"
     },
     "rubric-authoring.html": {
       "kind": "original-synthetic",
       "provenance": "rubric-authoring-guide-2026-09-29",
-      "sha256": "ca3ac28d7dcd042e8bb103dd6787611d6bced70776942a7158470ee8fff99a4b"
+      "sha256": "c0c23c1ef03fff30b960ef3beb001dec30f3fcc2489c3131ca2c97312c622635"
     },
     "docs/content-review-2026-09-30.md": {
       "kind": "documentation"
@@ -214,6 +214,9 @@
       "kind": "documentation"
     },
     "docs/content-review-2026-10-21.md": {
+      "kind": "documentation"
+    },
+    "docs/content-review-2026-10-22.md": {
       "kind": "documentation"
     }
   }

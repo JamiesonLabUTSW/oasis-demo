@@ -5,13 +5,17 @@ practice rubric or material your host has cleared for the session. Keep a named
 copy of the source when experimenting, and review the resulting rubric before
 using it to grade.
 
+Jump to: [Draft](#draft) · [Enhance](#enhance) · [Transform](#transform) · [Review checklist](#review-checklist) · [Model and progress](#model-and-progress) · [Recovery](#recovery).
+
+<a id="choose-action"></a>
+
 ## Choose the right action
 
 | Your aim | Action | When a saved rubric changes |
 | --- | --- | --- |
-| Write a new rubric or revise an unsaved draft | **Wayfinder** | Only when you choose **Save rubric** |
-| Improve wording or scoring anchors in an existing rubric | **Enhance** | When you **Accept** a suggestion or explicitly accept the selected changes |
-| Adapt an existing rubric to another scenario | **Transform** | **Create Transformed Rubric** generates and saves a new rubric; inspect it afterward |
+| Write a new rubric or revise an unsaved draft | [**Wayfinder**](#draft) | Only when you choose **Save rubric** |
+| Improve wording or scoring anchors in an existing rubric | [**Enhance**](#enhance) | When you **Accept** a suggestion or explicitly accept the selected changes |
+| Adapt an existing rubric to another scenario | [**Transform**](#transform) | **Create Transformed Rubric** generates and saves a new rubric; inspect it afterward |
 | Make a precise edit without an AI request | Make a copy, then edit or upload your revised workbook | When you explicitly save or upload the edit |
 
 The authoring choices are configured by your host. Where enabled, the default
@@ -19,7 +23,141 @@ for Wayfinder drafting/refinement and Enhance/Transform is **GPT-6.1 Sol at high
 reasoning**. The model you select for a grading run is a separate choice. High
 reasoning is a request setting, not a guarantee that every proposed criterion
 or score is correct. Ask your facilitator to confirm the site's actual
-authoring setup if it matters to your comparison.
+authoring setup if it matters to your comparison. See [model and progress help](#model-and-progress) for the task-agent menu and activity panel.
+
+<a id="prompting"></a>
+
+## Give the model a specific job
+
+State the purpose, intended learner or task, evidence format, number of criteria
+and score range. Explain what must remain unchanged and what you want improved.
+For an existing rubric, prefer one focused change at a time so you can assess
+its effect. Avoid adding real participant or patient information to a prompt.
+
+This newly authored fictional example concerns a desk-organizing exercise:
+
+> Draft six criteria for reviewing a written account of organizing a study
+> desk. Include a criterion for documenting the choice to use a timer or not.
+> Use Note evidence and scores 0, 1 and 2. Assess what the account documents,
+> not whether the person is tidy. Keep each criterion focused on one
+> observable feature. Explain how to score omitted information, and make the
+> three anchors mutually exclusive. Return a draft for my review.
+
+For a refinement, identify the item and the intended change:
+
+> Keep the item IDs, order, evidence format and score range. Revise only the
+> timer-setup criterion so that a documented decision not to use a timer is
+> distinct from an account that never mentions a timer. Return the complete
+> revised draft for review.
+
+These are instructional examples, not validated criteria or recorded model
+outputs. Use only evidence that the selected format can support: a note shows
+what was documented; a transcript shows words; silent video cannot establish
+what was said.
+
+<a id="draft"></a>
+
+## Wayfinder: draft, inspect, refine, save
+
+1. Open **Wayfinder**, describe the task and submit once. Allow the request to
+   finish; a large rubric can take several minutes.
+2. Read the preview from beginning to end. Check every item and its numeric
+   score labels. Open **Exact YAML** when you need the complete underlying text;
+   **Copy YAML** lets you keep your own draft copy.
+3. To revise it, use the card selected for refinement, or choose **Select for
+   refinement** on the intended card. Ask for a specific correction and check
+   the new complete draft against the previous one.
+4. Choose **Save rubric** only on the version you intend to keep. Confirm
+   **Saved to your rubrics.**, then use **View saved rubric** and inspect the
+   saved criteria and score range.
+
+Preview and refinement do not save a rubric. Moving between floating Wayfinder
+and the full Wayfinder page keeps the current conversation. **View saved rubric**
+and **Inspect existing rubric** open within the application, preserving drafts
+in the current tab. A page reload or sign-out can still clear unsaved drafts
+and chat history; use **Copy YAML** to keep a copy before leaving.
+
+A saved rubric remains available in your rubric inventory. Do not assume that
+saving a later draft removed an earlier saved version; use clear names and
+inspect the inventory.
+
+<a id="enhance"></a>
+
+## Enhance: compare each proposed change
+
+Open **Enhance** on the intended rubric and choose the review focus. Select
+**Generate Enhancements** once. Compare **Current rubric** with **Proposed
+enhancement** and read the stated reason. The explanation is a proposal you
+must evaluate, not proof that the change is better. A completed response can
+contain no suggestions. Neither completion nor an empty response validates the
+rubric's quality.
+
+Check that each suggestion preserves the construct you meant to assess and
+fits the surrounding criteria and anchors. Use **Accept** for a reviewed change
+or **Reject** for one you do not want. **Accept All** applies all suggestions
+still shown, so review every one before using it. Reopen the rubric and verify
+the saved result. Generating suggestions by itself does not apply them. Work
+on a copy when you want to retain the original wording for a comparison.
+
+If a later generation fails, earlier suggestions may remain visible. The failure
+notice identifies them as earlier suggestions; do not treat them as results
+from the failed attempt. There is no automatic resubmission.
+
+<a id="transform"></a>
+
+## Transform: create a separate rubric
+
+Open **Transform** on the source rubric. Enter a distinct **New rubric name**,
+the **Target station** when needed, and a clear **Target scenario**. Explain
+which features should carry over and which should change.
+
+**Create Transformed Rubric** is the creation action: it generates and saves a
+new rubric in the same request. It does not offer Wayfinder's separate draft
+preview before saving. The source rubric remains available. After the success
+message, choose **View saved rubric** and review its wording, IDs, stations,
+evidence format and scoring anchors before using it. A new scenario can require
+changes to mappings or assumptions that the model did not recognize.
+
+If creation could not be confirmed, use **Check again** in the dialog. It looks
+for the exact new name without creating another rubric. Each check waits up to
+45 seconds; if it times out, you can choose **Check again** explicitly. A found
+name enables **Inspect existing rubric**, but a matching name does not confirm
+that the saved content is the intended Transform result. **Inspect your rubrics**
+opens the refreshed inventory for review.
+
+If nothing is found yet, the first creation may still finish. The dialog blocks
+another Create with the same uncertain name. Changing the name is a separate
+creation, not a way to check the first request; ask your facilitator before
+doing so. A check started for an earlier attempt cannot confirm a later one.
+When the application can establish that saving never started, it reports the
+failure without the uncertain-creation warning. No failed request is submitted
+again automatically.
+
+<a id="review-checklist"></a>
+
+## Review the substance, not just the formatting
+
+| Check | What to look for |
+| --- | --- |
+| Purpose | Each criterion measures the intended feature, without introducing a new task or hidden requirement. |
+| Evidence | A reviewer can point to evidence in the chosen note, transcript or recording. Omission does not prove an action occurred. |
+| Score anchors | Every intended evidence case fits one score: no overlaps or gaps. Boundaries are explicit and ordered. |
+| Missing versus negative | An explicit statement of “none” is distinguishable from missing documentation where that distinction matters. |
+| Preservation | Required item IDs, order, item count, station, evidence format and score range survived the edit. |
+| Fairness and usefulness | Wording is relevant to the task and does not reward irrelevant personal attributes or unsupported assumptions. |
+| Saved result | The rubric you reopened matches the version you approved. |
+
+For example, an account might say, “I decided not to use a timer.” That
+explicitly documents a decision; silence about a timer does not. Decide whether
+that decision meets the criterion's purpose, then place it in exactly one
+scoring anchor. Do not automatically reward all negative statements or infer an
+assessment from an omission.
+
+Try the revised rubric on a few host-approved fictional examples and compare
+human interpretations before broader use. Successful generation, parsing or
+saving does not establish educational validity or grading accuracy.
+
+<a id="model-and-progress"></a>
 
 ## Choose a task agent and follow its activity
 
@@ -57,134 +195,14 @@ identity. Leaving the authoring view or signing out can interrupt updates;
 that does not prove provider work or a started save stopped. Unsaved activity
 and model details may be lost on reload or sign-out.
 
-A completed activity does not replace the action-specific review below:
+A completed activity does not replace the action-specific review above:
 Wayfinder still needs **Save rubric**, Enhance still needs your explicit
 acceptance, and Transform has already created a new saved rubric. If the
 connection fails, the application does not automatically submit the task again.
 For Transform, check your rubric inventory before another Create because the
 first request may have saved successfully before the response was lost.
 
-## Give the model a specific job
-
-State the purpose, intended learner or task, evidence format, number of criteria
-and score range. Explain what must remain unchanged and what you want improved.
-For an existing rubric, prefer one focused change at a time so you can assess
-its effect. Avoid adding real participant or patient information to a prompt.
-
-This newly authored fictional example concerns a desk-organizing exercise:
-
-> Draft six criteria for reviewing a written account of organizing a study
-> desk. Include a criterion for documenting the choice to use a timer or not.
-> Use Note evidence and scores 0, 1 and 2. Assess what the account documents,
-> not whether the person is tidy. Keep each criterion focused on one
-> observable feature. Explain how to score omitted information, and make the
-> three anchors mutually exclusive. Return a draft for my review.
-
-For a refinement, identify the item and the intended change:
-
-> Keep the item IDs, order, evidence format and score range. Revise only the
-> timer-setup criterion so that a documented decision not to use a timer is
-> distinct from an account that never mentions a timer. Return the complete
-> revised draft for review.
-
-These are instructional examples, not validated criteria or recorded model
-outputs. Use only evidence that the selected format can support: a note shows
-what was documented; a transcript shows words; silent video cannot establish
-what was said.
-
-## Wayfinder: draft, inspect, refine, save
-
-1. Open **Wayfinder**, describe the task and submit once. Allow the request to
-   finish; a large rubric can take several minutes.
-2. Read the preview from beginning to end. Check every item and its numeric
-   score labels. Open **Exact YAML** when you need the complete underlying text;
-   **Copy YAML** lets you keep your own draft copy.
-3. To revise it, use the card selected for refinement, or choose **Select for
-   refinement** on the intended card. Ask for a specific correction and check
-   the new complete draft against the previous one.
-4. Choose **Save rubric** only on the version you intend to keep. Confirm
-   **Saved to your rubrics.**, then use **View saved rubric** and inspect the
-   saved criteria and score range.
-
-Preview and refinement do not save a rubric. Moving between floating Wayfinder
-and the full Wayfinder page keeps the current conversation. **View saved rubric**
-and **Inspect existing rubric** open within the application, preserving drafts
-in the current tab. A page reload or sign-out can still clear unsaved drafts
-and chat history; use **Copy YAML** to keep a copy before leaving.
-
-A saved rubric remains available in your rubric inventory. Do not assume that
-saving a later draft removed an earlier saved version; use clear names and
-inspect the inventory.
-
-## Enhance: compare each proposed change
-
-Open **Enhance** on the intended rubric and choose the review focus. Select
-**Generate Enhancements** once. Compare **Current rubric** with **Proposed
-enhancement** and read the stated reason. The explanation is a proposal you
-must evaluate, not proof that the change is better. A completed response can
-contain no suggestions. Neither completion nor an empty response validates the
-rubric's quality.
-
-Check that each suggestion preserves the construct you meant to assess and
-fits the surrounding criteria and anchors. Use **Accept** for a reviewed change
-or **Reject** for one you do not want. **Accept All** applies all suggestions
-still shown, so review every one before using it. Reopen the rubric and verify
-the saved result. Generating suggestions by itself does not apply them. Work
-on a copy when you want to retain the original wording for a comparison.
-
-If a later generation fails, earlier suggestions may remain visible. The failure
-notice identifies them as earlier suggestions; do not treat them as results
-from the failed attempt. There is no automatic resubmission.
-
-## Transform: create a separate rubric
-
-Open **Transform** on the source rubric. Enter a distinct **New rubric name**,
-the **Target station** when needed, and a clear **Target scenario**. Explain
-which features should carry over and which should change.
-
-**Create Transformed Rubric** is the creation action: it generates and saves a
-new rubric in the same request. It does not offer Wayfinder's separate draft
-preview before saving. The source rubric remains available. After the success
-message, choose **View saved rubric** and review its wording, IDs, stations,
-evidence format and scoring anchors before using it. A new scenario can require
-changes to mappings or assumptions that the model did not recognize.
-
-If creation could not be confirmed, use **Check again** in the dialog. It looks
-for the exact new name without creating another rubric. Each check waits up to
-45 seconds; if it times out, you can choose **Check again** explicitly. A found
-name enables **Inspect existing rubric**, but a matching name does not confirm
-that the saved content is the intended Transform result. **Inspect your rubrics**
-opens the refreshed inventory for review.
-
-If nothing is found yet, the first creation may still finish. The dialog blocks
-another Create with the same uncertain name. Changing the name is a separate
-creation, not a way to check the first request; ask your facilitator before
-doing so. A check started for an earlier attempt cannot confirm a later one.
-When the application can establish that saving never started, it reports the
-failure without the uncertain-creation warning. No failed request is submitted
-again automatically.
-
-## Review the substance, not just the formatting
-
-| Check | What to look for |
-| --- | --- |
-| Purpose | Each criterion measures the intended feature, without introducing a new task or hidden requirement. |
-| Evidence | A reviewer can point to evidence in the chosen note, transcript or recording. Omission does not prove an action occurred. |
-| Score anchors | Every intended evidence case fits one score: no overlaps or gaps. Boundaries are explicit and ordered. |
-| Missing versus negative | An explicit statement of “none” is distinguishable from missing documentation where that distinction matters. |
-| Preservation | Required item IDs, order, item count, station, evidence format and score range survived the edit. |
-| Fairness and usefulness | Wording is relevant to the task and does not reward irrelevant personal attributes or unsupported assumptions. |
-| Saved result | The rubric you reopened matches the version you approved. |
-
-For example, an account might say, “I decided not to use a timer.” That
-explicitly documents a decision; silence about a timer does not. Decide whether
-that decision meets the criterion's purpose, then place it in exactly one
-scoring anchor. Do not automatically reward all negative statements or infer an
-assessment from an omission.
-
-Try the revised rubric on a few host-approved fictional examples and compare
-human interpretations before broader use. Successful generation, parsing or
-saving does not establish educational validity or grading accuracy.
+<a id="recovery"></a>
 
 ## If a request fails or the outcome is unclear
 
