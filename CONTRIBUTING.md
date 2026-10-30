@@ -48,6 +48,30 @@ existing license/notices and frozen image selection during site edits.
 Keep actual site journals in the host's approved private workspace.
 Follow the [support guide](docs/support.md) for public reports.
 
+## Acceptance feedback and workflow improvements
+
+After a walkthrough, consider another plausible route a first-time or
+experienced educator might take. Check the intended job: can they find their
+grades and source evidence, retain a review, and obtain an export that agrees
+with the saved result? Report only what was actually observed; available
+instructions or controls do not prove a successful grading run.
+
+Capture the user goal, expected route, actual result, smallest reproduction,
+impact and one testable improvement criterion. Distinguish a defect, usability
+friction, proposed idea, evidence gap or useful alternate path. Search existing
+reports and follow [support](docs/support.md) to link one canonical item with a
+named next owner. Decision, implementation and verified retest are separate.
+Public reports use original cleared examples and public-safe descriptions;
+private records, credentials, screenshots and runtime evidence stay with the
+authorized private operator.
+
+Maintainers with private access use the
+[shared computer-use playbook](https://github.com/JamiesonLabUTSW/oasis-internal/blob/fd5450475b303d34e4d8fbfec61a1d6958594e1d/docs/internal/user-acceptance/README.md)
+and its workflow/session templates. It complements participant guides and
+keeps reusable testing instructions in one place. Private access is required;
+public contributors can use the feedback instructions above without it.
+See the [content review](docs/content-review-2026-10-29.md) for this change.
+
 ## Hosted access documentation
 
 When an approved hosted address or access path changes, update the README,

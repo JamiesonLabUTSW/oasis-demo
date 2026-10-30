@@ -66,6 +66,9 @@
     }
   },
   "files": {
+    "docs/content-review-2026-10-29.md": {
+      "kind": "documentation"
+    },
     ".github/workflows/public-content.yml": {
       "kind": "governance"
     },
